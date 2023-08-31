@@ -1,0 +1,4 @@
+The goal of this small pack is to provide a factory-building experience by seamlessly integrating Immersive Engineering, Create, and Farmer's Delight together. This means little to no content overlap, and somewhat unified progression.
+It also seeks to "disconnect" Minecraft's lore from said experience, instead opting to use generic industrial concepts. (Really this is just limited to .lang file renames and non-Overworld dimensions not being required for progression)
+
+This pack is meant to be added to (hence the "template"), but is entirely playable on its own. I put it here on GitHub for others to reference and/or add to themselves.

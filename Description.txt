@@ -1,4 +1,0 @@
-The goal of this small pack is to provide a factory-building experience by seamlessly integrating Immersive Engineering, Create, and Little Logistics together. This means little to no content overlap, and somewhat unified progression.
-It also seeks to "disconnect" Minecraft's lore from said experience, instead opting to use generic industrial concepts. (Really this is just limited to Blazes not being required)
-
-This pack is meant to be added to (hence the "template"), but is entirely playable on its own.
