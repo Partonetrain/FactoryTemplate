@@ -1,0 +1,32 @@
+{    
+	"name": "Drawers",    
+	"icon": "storagedrawers:oak_full_drawers_1",    
+	"category": "patchouli:storage",
+	"sortnum": -1,
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "storagedrawers:oak_full_drawers_1",
+			"text": "Drawers are dedicated to storing large amounts of 1, 2, or 4 types of item. They are very useful if placed near your crafting stations when filled with a stockpile of a common crafting materials."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Right-click to put items into them, and double right-click to put all relevant items in your inventory into the drawer. Left-click to pull out one item, and shift-left-click to pull out a stack.$(br)A 1x1 storage drawer can store a total of 2048 instances of the type of item (32 stacks)."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "storagedrawers:upgrade_template",
+			"text": "A variety of upgrades are available to drawers to slightly change their functionality.$(br2)$(italics)Storage upgrades are not available. For larger storage sizes, use multiple drawers or the $(l:storage/silo)Silo.$(l)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "storagedrawers:drawer_key",
+			"text": "A Drawer Key prevents other types of items from entering a drawers' slot if it becomes empty. There are other types of keys that can be rotated through by placing the key by itself into a crafting grid."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "framedcompactdrawers:framed_full_one",
+			"text": "If you don't like any of the wood options, Framed Drawers can be crafted with other blocks to change their appearance. The block to the top-left of it in the crafting grid will be used as a base, to the left of it as a front cover, and the top of it as a frame. $(br2)$(italics)It's best to use solid blocks with this."
+		}
+	]
+}

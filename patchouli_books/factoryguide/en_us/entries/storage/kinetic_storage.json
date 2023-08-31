@@ -1,0 +1,12 @@
+{    
+	"name": "Kinetic Storage",    
+	"icon": "minecraft:barrier",    
+	"category": "patchouli:storage",
+	"sortnum": 99,
+	"pages": [        
+		{            
+			"type": "patchouli:text",
+			"text": "You can't store kinetic energy, silly!"
+		}
+	]
+}

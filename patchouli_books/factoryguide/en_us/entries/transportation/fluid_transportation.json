@@ -1,0 +1,44 @@
+{    
+	"name": "Transporting Fluids",    
+	"icon": "immersiveengineering:fluid_pipe",    
+	"category": "patchouli:transportation",
+	"sortnum": -3,
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "flopper:recipes/flopper",
+			"text": "Floppers are fluid-hoppers. They pull fluids from containers right above them. They can only store a bucket's worth of fluid."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:copper_fluid_pipe",
+			"text": "Copper Pipes can transfer fluids when a $(l:transportation/fluid_transportation#mechanical_pump)Mechanical Pump$() is in range. Copper Pipes can spill if they're not connected to a container, so be careful. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:steel_pipe",
+			"text": "Steel Pipes are another way of transferring fluids. These won't spill, can be dyed, and can be covered in scaffolding. Use the $(hammer) to connect and disconnect adjacent pipes."
+		},
+		{            
+			"type": "patchouli:crafting",  
+			"anchor": "mechanical_pump",
+			"recipe": "create:crafting/kinetics/mechanical_pump",
+			"text": "Mechanical Pumps, when provided with rotation through an adjacent cogwheel, will pipe fluids through connected Copper Pipes up to 16 blocks away. The arrow indicates the direction of flow. Rotation speed determines transfer rate. $(ponder)"        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/hose_pulley",
+			"text": "Hose Pulleys, when paired with a Mechanical Pump, can be used to fill or drain large bodies of fluid. Kinetic input can be used to change the height of the hose. $(l:kinetic_generators/manual)Cranks$() are useful for this. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",  
+			"recipe": "crafttweaker:electric_pump",
+			"text": "Electric Pumps act sort of like a combination of a faster Mechanical Pump and Hose Pulley. They can be used to insert into pipes at high pressure, to transfer fluids much faster, or they can pick up fluids from the world. Using your $(hammer) on the base will switch the sides between in- and output. "        
+			
+		},
+		{
+			"type": "patchouli:text",
+			"text": "In order for the Electric Pump to pick up fluid blocks, it will need a power input at the top and a redstone signal. Pumps can also be used to extract from tanks and other fluid containers that do not have an automatic output. This will require a redstone signal, but won't consume power."
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{    
+	"name": "Transportating Items",    
+	"icon": "immersiveengineering:conveyor_basic",    
+	"category": "patchouli:transportation",
+	"sortnum": -4,
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:hopper",
+			"text": "Hoppers use gravity to pull items. They can hold up to 5 stacks of items.$(br2)$(italics)This recipe has been changed from vanilla."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "quark:oddities/crafting/pipe",
+			"text": "Tubes are a basic, but still useful, way of transporting items. Items flowing through a tube have a preference of which direction to go, following gravity. Tubes with over 16 items inside will break, so be careful."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:rolling_conveyor",
+			"text": "Rolling Belts are another basic way of transporting items. Use an $(hammer) to change their direction. They will automatically insert into containers. Their speed is fixed, and they are most used in machinery."
+		},
+		{            
+			"type": "patchouli:crafting",  
+			"recipe": "create:crafting/kinetics/belt_connector",
+			"text": "Mechanical Belts are the best way of transporting items. Faster-moving belts will move items faster. $(ponder)$(br)See $(l:transportation/funnels_and_tunnels)Funnels and Tunnels$() for related blocks."      
+		},
+		{
+			"type": "patchouli:crafting",  
+			"anchor": "",
+			"recipe": "create:crafting/kinetics/chute",
+			"text": "The chute transports items down, like hoppers, but they are cheaper to make en masse. They can also transport items straight up, but you'll need an $(l:kinetic_machines/encased_fan)Encased Fan$() under them. $(ponder)"
+		}
+	]
+}

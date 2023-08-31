@@ -1,0 +1,34 @@
+{    
+	"name": "Automated Workbench",    
+	"icon": "immersiveengineering:auto_workbench",    
+	"category": "patchouli:electric_machines",    
+	"pages": [   
+		{            
+			"type": "patchouli:multiblock",
+			"name": "Automated Workbench",
+			"multiblock": {
+				"pattern": [
+				["LTT_", "LCC_", "CCH_"],
+				["LRS_", "LSS0", "SSH_"]
+				],
+				"mapping": {
+					"L": "immersiveengineering:light_engineering",
+					"R": "immersiveengineering:rs_engineering",
+					"H": "immersiveengineering:heavy_engineering",
+					"S": "immersiveengineering:steel_scaffolding_standard",
+					"T": "immersiveengineering:slab_treated_wood_horizontal",
+					"C": "minecraft:orange_carpet"
+				}
+			},
+			"text": "The structure is built from the following $(t:5 Steel Scaffolding Blocks, 4 Light Engineering Blocks, 4 Conveyor Belts, 2 Treated Wood Slabs, 2 Heavy Engineering Blocks, and A Redstone Engineering Block.)$(#007500)blocks$(). $(wool)($(#007500)Orange Carpet$() in place of conveyor belts)"        
+		},	
+		{            
+			"type": "patchouli:text",            
+			"text": "The Automated Workbench is one of the first major successes of small-scale engineering. $(br)The machine is able to follow a set of instructions described by a $(l:patchouli:essentials/workbench_and_blueprints#blueprint)Blueprint$() to assemble the items detailed by it."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Upon assembling the multiblock, a Blueprint can be placed on its drawing table. After selecting the item that should be created, it will begin the assembly process. In order for the machine to work, it will need to be supplied with materials and power. Item inputs are the two hatches marked with blue dots, the power input lies above them. Finished items are dropped at the end of the conveyor belt. $(br)A redstone signal below the drawing table can be used for control."        
+		}
+	]
+}

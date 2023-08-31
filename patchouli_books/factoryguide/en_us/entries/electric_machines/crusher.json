@@ -1,0 +1,38 @@
+{    
+	"name": "Industrial Crusher",    
+	"icon": "immersiveengineering:crusher",    
+	"category": "patchouli:electric_machines",    
+	"pages": [   
+		{            
+			"type": "patchouli:multiblock",
+			"name": "Crusher",
+			"multiblock": {
+				"pattern": [
+				["   _", "HHH_", "HHH_", "HHH_", "   _"],
+				[" LR_", "FFF_", "FLF_", "FFF_", "LLL_"],
+				["SSS_", "SSS_", "SLL0", "SSS_", "LLL_"]
+				],
+				"mapping": {
+					"L": "immersiveengineering:light_engineering",
+					"R": "immersiveengineering:rs_engineering",
+					"S": "immersiveengineering:steel_scaffolding_standard",
+					"H": "minecraft:hopper",
+					"F": "immersiveengineering:steel_fence"
+				}
+			},
+			"text": "The structure is built from the following $(t:10 Steel Scaffolding Blocks, 10 Light Engineering Blocks, 9 Hoppers, 8 Steel Fences, and 1 Redstone Engineering Block.)$(#007500)blocks$()."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Crushing a raw ore is an effective way of increasing its yield, and this industrial-size crusher is a better way of doing so than using the $(l:kinetic_machines/crushing_wheels)Crushing Wheels$(). However, as a trade-off, this machine does not output the $(l:kinetic_machines/crushing_wheels#bonus)non-ore bonuses$() that the Crushing Wheels can. The machine's processing speed depends on the power supplied to it. $(br)Applying a redstone signal to the control panel at the front will halt the crushers process, this behavior can be inverted by use of the $(screwdriver)."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "The structure is formed by right clicking the central fence of the front of the machine with an Engineer's hammer. The front is the wide side of the structure which has a light engineering block at the bottom. $(br)However, doesn't only have to be used for crushing ores. Every living being to fall into the machine will take grave damage and the crusher will output the relevant drops."        
+		},
+		{
+			"type": "patchouli:text",
+			"text": "$(bold)Items dropped into the top of the crusher that cannot be processed will be destroyed.$()"
+		}
+	]
+}

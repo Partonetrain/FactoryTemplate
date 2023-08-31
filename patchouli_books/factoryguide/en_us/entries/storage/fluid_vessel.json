@@ -1,0 +1,16 @@
+{    
+	"name": "Fluid Vessel",    
+	"icon": "create:fluid_tank",    
+	"category": "patchouli:storage",
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/fluid_tank",
+			"text": "Fluid Vessels are expandable multi-block structures for storing fluids. For each Fluid Vessel in the structure, 8 buckets of fluid can be stored. They must be placed in a vertical rectangular prism shape."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "However, fluids cannot be added or extracted from them with buckets. This may seem like a straight disdvantage over other means of fluid storage, but Fluid Vessels are much easier to expand, they can be attached to $(l:transportation/trains)Trains$(), and you'll need Fluid Vessels as a Boiler in your $(l:kinetic_generators/steam_engine)Steam Engine."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{    
+	"name": "Lights",    
+	"icon": "immersiveengineering:lantern",    
+	"category": "patchouli:construction",
+	"pages": [        
+		{            
+			"type": "patchouli:text",            
+			"text": "Any good engineer needs lights on to be able to see as they work through the night."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/electric_lantern",
+			"text": "Powered Lanterns, when powered, keep the creatures of the night away. They allow power to be transferred through them, so you can link them together in a row."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/floodlight",
+			"text": "$(bug)Floodlights are strong light sources. While they require more power than a simple Powered Lantern, they will create a cone of light up to 32 blocks long. "        
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Use an $(hammer) on the top or bottom faces of the block to rotate the light or click its sides to change its pitch. By default, they require a redstone signal to run, however this behavior can be inverted with an Engineer's Screwdriver."
+		}
+	]
+}

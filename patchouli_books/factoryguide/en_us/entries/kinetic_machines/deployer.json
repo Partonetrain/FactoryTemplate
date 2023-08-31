@@ -1,0 +1,16 @@
+{
+	"name": "Deployer",    
+	"icon": "create:deployer",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/deployer",
+			"text": "The Deployer, AKA the Mechanical Hand, can imitate player interactions with the block 2 meters in front of it when provided with rotation."
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "By default, it imitates a right-clicking action, but can be changed to a left-click action with the $(wrench).$(br2)Deployers can also process items and be used on contraptions.$(br2)$(ponder)"
+		}
+	]
+}

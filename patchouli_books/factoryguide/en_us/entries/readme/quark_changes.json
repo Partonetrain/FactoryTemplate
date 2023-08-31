@@ -1,0 +1,23 @@
+{
+	"name": "Quark Changes",
+	"icon": "quark:stone_lamp",
+	"category": "patchouli:readme",
+	"pages": [{
+		"type": "patchouli:text",
+		"text": "Some changes to the Quark have been made. They are..."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:name_tag",
+		"title": "Renames",
+		"text": "Copper Pipe>Copper Tube$(br)Iron Plate>Plating$(br)Blaze Lantern>Blazing Lantern$(br)Dragon Scale>Mysterious Scale$(br)Ender Watcher>Watcher$(br)Ravager Hide>Large Hide"
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:enchanting_table",
+		"title": "Matrix Influences",
+		"text": "Additional enchantment influences have been added to certain candles. See $(l:essentials/enchants)Reference: Enchanting$()."
+	}
+	
+	]
+}

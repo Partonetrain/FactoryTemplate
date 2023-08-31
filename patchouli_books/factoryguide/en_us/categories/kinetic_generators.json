@@ -1,0 +1,6 @@
+{    
+	"name": "Kinetic Generators",
+	"description": "These are sources of Kinetic Energy. Get things moving!$(br2)Aside from the Hand Crank and Valve Handle, these also can be used to $(l:electric_generators)generate electricity$() with the $(l:electric_generators/alternator)alternator$().$(br2)$(pondernote)",  
+	"icon": "create:water_wheel",
+	"sortnum": 4
+}

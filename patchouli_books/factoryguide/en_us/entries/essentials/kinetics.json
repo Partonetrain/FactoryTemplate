@@ -1,0 +1,23 @@
+{    
+	"name": "Kinetic Energy",    
+	"icon": "create:shaft",
+	"category": "patchouli:essentials",    
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "All engineering begins with basic, mechanical motion. Kinetic energy is very useful on its own, and later it can be turned into electricity.$(br2)When it comes to kinetics, $(#808080)Ponder$()ing is your best friend. Hold W while hovering over a kinetic object to visualize how to use it.$(br2)$(pondernote)$()"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/materials/andesite_alloy",			
+			"text": "Andesite Alloy is stuff of life for kinetic engineers. It is sturdy enough to make $(l:transporation/kinetic_transporation)shafts$(), which is one of three ways kinetic energy will be transferred. Once you craft a $(l:patchouli:workbench_and_blueprints)Engineer's Workbench and Engineer's Blueprint$(), you will be able to craft them for less material."        
+		},
+		{            
+			"type": "patchouli:spotlight",
+			"anchor": "crank",
+			"item": "create:hand_crank",
+			"text": "The humble Hand Crank may be your first source of kinetic energy. Be weary, however, as using it will quickly make you hungry. $(br)For a complete list of sources of kinetic energy, see $(l:patchouli:kinetic_generators)Kinetic Generators."        
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Mechanical Drill",    
+	"icon": "create:mechanical_drill",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:mechanical_drill",
+			"text": "Mechanical Drills break blocks directly in front of them. The faster the rotation provided, the faster the block is broken.$(br2)$(italics)Note: there is an alternate recipe available, since the Iron Drill Head doesn't stack."
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "On $(l:kinetic_machines/contraptions)Contraptions$(), they will break blocks the contraption runs into, and store them in attached inventories. $(ponder)"
+		}
+	]
+}

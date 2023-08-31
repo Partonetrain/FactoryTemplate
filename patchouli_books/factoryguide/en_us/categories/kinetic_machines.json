@@ -1,0 +1,6 @@
+{    
+	"name": "Kinetic Machines",
+	"description": "Machines that use kinetic energy to operate.$(br2)Not all kinetic machines and related components are listed here - only the most essential.$(br)$(pondernote)",  
+	"icon": "create:crushing_wheel",
+	"sortnum": 5
+}

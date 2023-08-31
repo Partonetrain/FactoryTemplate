@@ -1,0 +1,17 @@
+{    
+	"name": "Building Gadgets",    
+	"icon": "buildinggadgets:gadget_building",    
+	"category": "patchouli:tools",    
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:gadget_building",
+			"text": "The Building Gadget is a fantastic device that can greatly speed up building. Shift-right-click to select a block to use, and use the Settings Menu keybind to configure the placement. It must be charged in a $(l:electric_machines/charging_station)Charging Station$()."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:gadget_exchanging",
+			"text": "The Exchanging Gadget works in a similar way, except it replaces blocks already in the world. This can be useful if you're making your factory in a cave, for instance."        
+		}
+	]
+}

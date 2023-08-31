@@ -1,0 +1,18 @@
+{    
+	"name": "Measuring Voltage",    
+	"icon": "immersiveengineering:current_transformer",    
+	"category": "patchouli:transportation",
+	"sortnum": 99,	
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/current_transformer",
+			"text": "The Current Transformer is a measurement device for electrical power. It can be hooked up in any powerline and will keep track of energy transferred through it, returning an average Flux/t upon right-click."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:energymeter",
+			"text": "The Energy Meter is an advanced, minitaurized version of the Current Transformer. It has a screen, so you can see the average Flux/t rate from far away. Using it requires setting up inputs and outputs, and attaching $(l:transportation/power_transportation#wireconnector)Wire Connectors$() - right-click it to configure it."
+		}
+	]
+}

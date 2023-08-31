@@ -1,0 +1,17 @@
+{
+	"name": "Mechanical Crafter",    
+	"icon": "create:mechanical_crafter",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_crafter",
+			"text": "An array of Mechanical Crafters can be used to automate any crafting recipe. Some items (such as the $(l:kinetic_machines/crushing_wheels)Crushing Wheels$()) can only be crafted using the larger grid provided by Mechanical Crafters. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/crafter_slot_cover",
+			"text": "You can use Crafter Slot Covers to act as an empty slot in the crafting arrangement. "
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Meters",    
+	"icon": "create:speedometer",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/speedometer",
+			"text": "Not exactly a machine, but the speedometer can help you determine how quickly attached kinetic components are rotating. Wear the $(goggles) to see the exact numbers.$(br2)$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/stressometerfrom_conversion",
+			"text": "The stressometer works similarly, but measures the stress (torque) of the entire kinetic network instead.$(br2)$(ponder)"
+		}
+	]
+}

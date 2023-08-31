@@ -1,0 +1,45 @@
+{    
+	"name": "Metal Press",    
+	"icon": "immersiveengineering:metal_press",    
+	"category": "patchouli:electric_machines",    
+	"pages": [ 
+		{            
+			"type": "patchouli:multiblock",
+			"name": "Metal Press",
+			"multiblock": {
+				"pattern": [
+				[" H _"],
+				["CPC_"],
+				["SRS0"]
+				],
+				"mapping": {
+					"R": "immersiveengineering:rs_engineering",
+					"S": "immersiveengineering:steel_scaffolding_standard",
+					"H": "immersiveengineering:heavy_engineering",
+					"C": "minecraft:orange_carpet",
+					"P": "minecraft:piston[facing=down]"
+				}
+			},
+			"text": "The structure is built from the following $(t:2 Steel Scaffoldings, 1 Redstone Engineering Block, 1 Piston, 1 Heavy Engineering Block and 2 Conveyor Belts)$(#007500)blocks$(). $(wool)($(#007500)Orange carpet$() in place of conveyor belts)"        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "The Metal Press is an automated way of shaping metal. It uses a high pressure piston to press a mold onto an ingot, forming it into a plate, rod or other metal components. $(br)The structure is created as shown on the next page, to form the multiblock, right-click the piston with an $(hammer)."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Power is input through the top, and items through the conveyors, obviously in the direction of movement. The lower middle block is the redstone control port, rightclicking it with an Engineer's Screwdriver allows you to invert the redstone control."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/blueprint_molds",
+			"text": "To actually work, the metal press requires a mold to be attached to the piston. These molds are created in the Engineer's Workbench using the blueprint displayed above."        
+		},
+		{
+			"type": "patchouli:spotlight",
+			"title": "Metal Press Molds",
+			"item": "immersiveengineering:mold_plate",
+			"text": "The crafting component molds can be used to make the crafting components they're named after, including bullet casing, metal rods, metal plates, and electrical wires. $(br)This process is usually more efficient than using a hammer or wire cutters to make the same components."
+		}
+	]
+}

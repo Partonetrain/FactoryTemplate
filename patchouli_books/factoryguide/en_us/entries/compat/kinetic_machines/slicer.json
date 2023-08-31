@@ -1,0 +1,13 @@
+{
+	"name": "Slicer",    
+	"icon": "sliceanddice:slicer",    
+	"category": "patchouli:kinetic_machines",
+	"flag": "mod:sliceanddice",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "sliceanddice:slicer",
+			"text": "The Slicer will automatically $(l:construction/cooking)cut$() ingredients on belts or depots, as long as it is provided with a knife. It needs at least 32 RPMs to work, and must be rotating counter-clockwise. $(ponder)"
+		}
+	]
+}

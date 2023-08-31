@@ -1,0 +1,37 @@
+{    
+	"name": "Trains",    
+	"icon": "create:track",    
+	"category": "patchouli:transportation",
+	"sortnum": 20,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Trains are the ultimate way to transport large amounts of items, fluids, or people long distances. They are also $(l:kinetic_machines/contraptions)Contraptions$(), so you can attach contraption components to them."
+		},		
+		{            
+			"type": "patchouli:spotlight",
+			"item": "create:track",
+			"text": "The first thing you'll need to even begin with trains is Train Tracks. Tracks are created in a $(bold)Recipe Sequence$() from one of the types of Sleepers (stone slabs) and either Iron or Zinc nuggets. You will need a lot of these if you plan to have your train any amount of distance, so it'd be best to automate the production of them. $(ponder)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "create:railway_casing",
+			"text": "Next is the Train Casing. This is created by applying a Sturdy Sheet to a Brass Casing. Sturdy Sheets also require a Recipe Sequence. Using the Train Casing, you can create a Train Station. "
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/track_station",
+			"text": "After placing a Train Station next to a track, $(ponder)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/controls",
+			"text": "In order for the train to move, you will need to place Train Controls on it. $(ponder)"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/schedule",
+			"text": "If you want the train to move without you controlling it, craft a Schedule. It can be given to creatures on $(l:construction/seat)Seats$() to make them the conductor. $(ponder)"
+		}
+	]
+}

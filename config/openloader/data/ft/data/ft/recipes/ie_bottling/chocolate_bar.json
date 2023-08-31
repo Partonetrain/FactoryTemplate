@@ -1,0 +1,15 @@
+{
+	"type": "immersiveengineering:bottling_machine",
+	"fluid": {
+		"amount": 250,
+		"tag": "fluid:chocolate"
+	},
+	"input": {
+		"item": "immersiveengineering:mold_plate"
+	},
+	"results": [{
+		"item": "create:bar_of_chocolate"
+	}, {
+		"item": "immersiveengineering:mold_plate"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "immersiveengineering:bottling_machine",
+	"fluid": {
+		"amount": 1000,
+		"tag": "forge:honey"
+	},
+	"input": {
+		"item": "immersiveengineering:mold_plate"
+	},
+	"results": [{
+		"item": "minecraft:honey_block"
+	}, {
+		"item": "immersiveengineering:mold_plate"
+	}]
+}

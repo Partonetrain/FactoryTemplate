@@ -1,0 +1,31 @@
+{    
+	"name": "Specialized Redstone",    
+	"icon": "create:powered_latch",
+	"category": "patchouli:construction",    
+	"pages": [
+		{            
+			"type": "patchouli:text",            
+			"text": "A variety of newly-conceptualized redstone components are available to the fledlging redstone engineer. $(ponder)"        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/logistics/powered_latch",
+			"recipe2": "create:crafting/logistics/powered_toggle_latch"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/logistics/pulse_repeater",
+			"recipe2": "create:crafting/logistics/pulse_extender"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/logistics/redstone_link",
+			"recipe2": "create:crafting/logistics/pulse_extender"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "quark:automation/crafting/redstone_randomizer"
+		}
+		
+	]
+}

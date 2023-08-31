@@ -1,0 +1,6 @@
+{    
+	"name": "Storage",    
+	"description": "Where do I keep all this stuff?",    
+	"icon": "minecraft:chest",
+	"sortnum": 2
+}

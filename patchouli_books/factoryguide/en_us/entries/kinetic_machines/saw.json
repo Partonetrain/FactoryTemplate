@@ -1,0 +1,16 @@
+{
+	"name": "Mechanical Saw",    
+	"icon": "create:mechanical_drill",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:mechanical_saw",
+			"text": "Mechanical Saws, when placed upright, will process logs into stripped logs and stripped logs into planks. It is not as efficient as the $(l:electic_machines/sawmill)Sawmill$(), but it gets the job done.$(br)$(italics)Note: there is an alternate recipe available, since the Sawblade doesn't stack."
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "When placed sideways and provided rotational force, a Mechanical Saw will completely chop down trees in front of it. On $(l:kinetic_machines/contraptieons)Contraptions$(), they will chop down trees the contraption runs into, and store the drops in attached inventories. $(ponder)"
+		}
+	]
+}

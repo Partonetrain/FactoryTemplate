@@ -1,0 +1,18 @@
+{    
+	"name": "Industrial Plants",    
+	"icon": "immersiveengineering:hemp_fiber",    
+	"category": "patchouli:essentials",
+	"sortnum": -1,	
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "corn_delight:corn",
+			"text": "Not only is Corn a great staple crop, but it is the single most reliable source of Ethanol when put into the $(l:patchouli:electric_machines/fermenter)Industrial Fermenter$().$(br)Corn Kernels, which can be planted, can be obtained by finding Wild Corn in the world. Maize can also be used to sustain farm animals."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:hemp_fiber",
+			"text": "Industrial Hemp is a remarkable plant! Not only are its seeds useful for the the creation of $(l:patchouli:electric_machines/refinery)Biodiesel$(), the hemp fibers are also used for the creation of Tough Fabric, which can be used for insulating wires, among other uses.$(br)The seeds can be obtained by breaking tall grass."
+		}
+	]
+}

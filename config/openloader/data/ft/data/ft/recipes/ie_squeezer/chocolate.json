@@ -1,0 +1,11 @@
+{
+	"type": "immersiveengineering:squeezer",
+	"energy": 1600,
+	"fluid": {
+		"amount": 250,
+		"fluid": "create:chocolate"
+	},
+	"input": {
+		"item": "create:bar_of_chocolate"
+	}
+}

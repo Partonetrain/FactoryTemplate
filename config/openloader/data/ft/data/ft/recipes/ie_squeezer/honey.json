@@ -1,0 +1,11 @@
+{
+	"type": "immersiveengineering:squeezer",
+	"energy": 1600,
+	"fluid": {
+		"amount": 1000,
+		"fluid": "create:honey"
+	},
+	"input": {
+		"item": "minecraft:honey_block"
+	}
+}

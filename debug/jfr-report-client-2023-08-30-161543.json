@@ -1,0 +1,93 @@
+{
+  "startedEpoch": 1693430144215,
+  "endedEpoch": 1693430151558,
+  "durationMs": 7343,
+  "heap": {
+    "allocationRateBytesPerSecond": 4.11041792E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.44055563,
+    "gcTotalDurationMs": 3235
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.011322488076984882,
+      "max": 0.01678110845386982
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.28082694858312607,
+      "max": 0.4196875989437103
+    },
+    "system": {
+      "min": 0.42815136909484863,
+      "average": 0.5835583135485649,
+      "max": 1.0
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1697,
+      "count": 10,
+      "bytesPerSecond": 242.42857142857142,
+      "countPerSecond": 1.4285714285714286,
+      "topContributors": [
+        {
+          "path": "logs\\debug.log",
+          "totalBytes": 702
+        },
+        {
+          "path": "logs\\latest.log",
+          "totalBytes": 550
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 3509,
+      "count": 4,
+      "bytesPerSecond": 501.2857142857143,
+      "countPerSecond": 0.5714285714285714,
+      "topContributors": [
+        {
+          "path": "C:\\Games\\CurseForge\\Minecraft\\Install\\libraries\\net\\minecraft\\client\\1.19.2-20220805.130853\\client-1.19.2-20220805.130853-srg.jar",
+          "totalBytes": 3509
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 6.593826,
+    "averageMs": 9.9259845,
+    "maxMs": 12.657709,
+    "p99": 12.64781827,
+    "p90": 12.5588017,
+    "p75": 12.41044075,
+    "p50": 10.2262015
+  },
+  "threadAllocation": [
+    {
+      "thread": "FileSystemWatchService",
+      "bytesPerSecond": -Infinity
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

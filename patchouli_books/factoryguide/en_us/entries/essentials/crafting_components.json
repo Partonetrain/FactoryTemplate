@@ -1,0 +1,24 @@
+{    
+	"name": "Crafting Components",    
+	"icon": "create:andesite_alloy",
+	"category": "patchouli:essentials",    
+	"sortnum": -2,
+	"pages": [
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:blueprint{blueprint: components}",
+			"text": "Using this blueprint from earlier in an $(l:patchouli:essentials/workbench_and_blueprints)Engineer's Workbench$() will allow you to construct the components at a reduced cost."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "create:andesite_alloy",
+			"text": "You will need a lot of Andesite Alloys for your kinetic contraptions. Make sure to make a lot at the Engineer's Workbench."
+		},    
+		{            
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:component_iron",
+			"text": "Once you get into electronic machinery, the Iron and Steel Mechanical Components will be integral"
+		}
+		
+	]
+}

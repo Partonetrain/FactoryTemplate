@@ -1,0 +1,47 @@
+{
+	"name": "Vanilla Changes",
+	"icon": "minecraft:writable_book",
+	"category": "patchouli:readme",
+	"pages": [{
+		"type": "patchouli:text",
+		"text": "Some changes to the vanilla Minecraft experience have been made. They are..."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:name_tag",
+		"title": "Renames",
+		"text": "Blast Furnace>Ore Furnace$(br)Concrete>Colorcrete$(br)Nether Quartz>Quartz$(br)Lightning Rod>Lightning Attractor$(br)Blaze Rod>Blazing Rod$(br)Ender Pearl>Magic Pearl$(br)Ender Eye>Interdimensional Eye$(br)Phantom Membrane>Insect Membrane$(br)Rabbit Hide>Small Hide"
+	},
+	{
+		"type": "patchouli:text",
+		"title": "Lore",
+		"text": "Minecraft's \"lore\" so to speak has been mildly lessened. You can acquire some items like Magic Pearls (formerly Ender Pearls) in new ways. Travelling to the Nether or End is unnecessary for progression."
+	},
+	{
+		"type": "patchouli:crafting",
+		"recipe": "crafttweaker:hopper",
+		"text": "The hopper recipe has been cheapened."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:quartz",
+		"text": "Nether Quartz can be found in the Overworld, and as such has been renamed to just Quartz."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:phantom_membrane",
+		"text": "The Insect Membrane (formerly Phantom Membrane) can now be obtained by killing Bees, Cave Spiders, or in Abandoned Mineshaft loot (in addition to killing Phantoms). It can be used to craft a half-damaged Elytra."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"title": "Loot Changes",
+		"item": "minecraft:chest",
+		"text": "Saddles and Name Tags are no longer found in loot tables. They can be crafted. Additionally, all music discs can be found in Dungeons."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:apple",
+		"text": "Apples are $(italics)significantly$() more common drops from Oak Leaves, having the same rate as Sticks. They no longer drop from Dark Oak leaves."
+	}
+	]
+}

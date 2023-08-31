@@ -1,0 +1,16 @@
+{
+	"name": "Millstone",    
+	"icon": "create:millstone",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/millstone",
+			"text": "The Millstone is used to break down soft materials, especially plant matter. Kinetic energy can be provided to the millstone by either an adjacent Cogwheel or a Shaft underneath. $(ponder)"
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "If you're in need of dyes, the millstone is a good way to obtain some from a variety of materials."
+		}
+	]
+}

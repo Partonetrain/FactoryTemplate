@@ -1,0 +1,19 @@
+{
+	"name": "Manual Rotation",
+	"icon": "create:copper_valve_handle",
+	"category": "patchouli:kinetic_generators",
+	"sortnum": 1,
+	"pages": [
+	
+	{
+		"type": "patchouli:crafting",
+		"recipe": "create:crafting/kinetics/hand_crank",
+		"text": "The Hand Crank allows you to use your muscles to rotate components. However, this makes you hungry. $(ponder)"
+	},
+	{
+		"type": "patchouli:crafting",
+		"recipe": "create:crafting/kinetics/copper_valve_handle",
+		"text": "The Valve Handle can rotate components at specific angles. $(ponder)"
+	}
+	]
+}

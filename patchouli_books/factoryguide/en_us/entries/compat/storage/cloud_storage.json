@@ -1,0 +1,21 @@
+{    
+	"name": "Cloud Storage",    
+	"icon": "cloudstorage:cloud_chest",    
+	"category": "patchouli:storage",
+	"flag": "mod:cloudstorage",
+	"pages": [        
+		{            
+			"type": "patchouli:text",
+			"text": "Legend tells of creatures in the sky whose drops could help a fledgeling engineer organize their items... For a complete guide to these rumors, craft the Cloud Storage and You book."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "cloudstorage:guide_book",
+			"text": "In order to craft this, however, you will need drops from the creatures that reside high in the sky."
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "What that book $(italics)doesn't$() mention, however, is that $(l:kinetic_machines/whisk)whisking$() together standard Clouds and Lightning Attractors gathers surrounding static electricity, resulting in a Static Cloud.$(br2)Note that both the Cloud Chest and Static Cloud chest can have up to 8,192 slots."
+		}
+	]
+}

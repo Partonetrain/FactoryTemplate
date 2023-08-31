@@ -1,0 +1,35 @@
+{    
+	"name": "Structural Wire",    
+	"icon": "immersiveengineering:wirecoil_structure_rope",    
+	"category": "patchouli:construction",
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/wirecoil_structure_rope",
+			"recipe2": "immersiveengineering:crafting/wirecoil_structure_steel"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "These structural wires do not transmit electricity, but can be used for other purposes, such as for decoration or for traversal using the $(l:tools/skyhook)Engineer's Skyhook$()."
+		},
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "immersiveengineering:crafting/connector_structural",
+			"text": "These are purely decorate connectors for the structural wires. You can rotate them by right-clicking with the $(hammer)."        
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Similarly, wallmounts can be used to place wire connectors upright or upside-down on walls."
+		},
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "immersiveengineering:crafting/balloon",
+			"text": "Balloons are sacks of fabric with a heat source in the middle to keep them afloat. They can be placed in mid-air. Both kinds of structural wires can be attached to them. Sneak-clicking while holding will allow you to set a height offset for placement."        
+		},
+		{
+			"type": "patchouli:text",
+			"text": "You can also uses dyes on a placed balloon; which part you dye depends on where you target it. Right-clicking with an $(hammer) will toggle the balloon's design between horizontal or vertical stripes."
+		}
+		
+	]
+}

@@ -1,0 +1,35 @@
+{    
+	"name": "Accumulator Backpack",    
+	"icon": "immersiveengineering:powerpack",    
+	"category": "patchouli:tools",    
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/powerpack",
+			"text": "Energy storage takes space and some heavy weight components. As such, storing large amounts of energy in each tool individually is inefficient and makes them akward to wield."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "After constructing the frame as shown here, take it to the $(l:essentials/workbench_and_blueprints)Engineer's Workbench$() to place an $(l:storage/electric_storage)Accumulator$() inside. The Accumulator Backpack acts as a compromise, offering a centralized storage of energy for any powered tools to tap into. $(br)The backpack charges any tools held in main- or offhand as well as any armorpieces you are wearing. $(br)The accumulator can be worn on your back like a piece of chest armor, or you may attach it to most common sets of armor in order to gain the benefit of a power-supply as well as protection."        
+		},
+		{
+			"type" : "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_powerpack_antenna",
+			"text": "By attaching a Charging Antenna to the backpack, you can charge its accumulator on the go! Simply walk underneath an $(l:transportation/power_transportation)un-insulated powerline$() to have the antenna connect to it. $(italics)This works best when the powerline is positioned four blocks above the backpack-wearer."
+		},
+		{
+			"type" : "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_powerpack_induction",
+			"text": "The Induction Charger allows the accumulator backpack to charge all the items in your inventory instead of just those in your hands. Due to not using a direct wired connection however, this charging is much slower."
+		},
+		{
+			"type" : "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_powerpack_tesla",
+			"text": "As its name may suggest, the Miniaturized Tesla Coil is much like its $(l:electric_machines/tesla_coil)larger sister$(), a device that delivers dangerous shocks to nearby targets. It does so in response to the wearer being attacked, thus substituting thorny armor for electicity."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Due to attaching at the top of the backpack, the coil cannot be used at the same time as the Charging Antenna."        
+		}
+	]
+}

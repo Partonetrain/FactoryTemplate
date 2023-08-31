@@ -1,0 +1,17 @@
+{
+  "type": "immersiveengineering:mixer",
+  "energy": 400,
+  "fluid": {
+    "amount": 250,
+    "tag": "forge:milk"
+  },
+  "inputs": [
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "result": {
+    "amount": 250,
+    "fluid": "create:tea"
+  }
+}

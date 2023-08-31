@@ -1,0 +1,18 @@
+{
+  "block.solargeneration.solar_panel_hardened": "LV Solar Panel",
+  "block.solargeneration.solar_panel_redstone": "MV Solar Panel",
+  "block.solargeneration.solar_panel_signalum": "HV Solar Panel",
+  "gui.solargeneration.capacity": "Capacity:",
+  "gui.solargeneration.energy": "Energy:",
+  "gui.solargeneration.generation": "Generation:",
+  "gui.solargeneration.stored_energy": "Stored energy:",
+  "item.solargeneration.solar_core_hardened": "Solar Junction Box",
+  "item.solargeneration.solar_helmet_hardened": "LV Solar Helmet",
+  "item.solargeneration.solar_helmet_redstone": "MV Solar Helmet",
+  "item.solargeneration.solar_helmet_signalum": "HV Solar Helmet",
+  "itemGroup.solargeneration_tab": "Solar Generation",
+  "message.solargeneration.for_details": "for details",
+  "message.solargeneration.for_stored_energy": "for stored energy",
+  "message.solargeneration.hold": "Hold",
+  "message.solargeneration.transfer": "Transfer:"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "Steam Engine",
+	"icon": "create:steam_engine",
+	"category": "patchouli:kinetic_generators",
+	"sortnum": 4,
+	"pages": [
+	{
+		"type": "patchouli:crafting",
+		"recipe": "create:crafting/kinetics/steam_engine",
+		"text": "The Steam Engine, when attached to a $(l:storage/fluid_vessel)boiler$(), generates rotation to an attached shaft. A better boiler setup will cause the Steam Engine to output more speed and have a stronger stress capacity. $(ponder)"
+	}
+	]
+}

@@ -1,0 +1,39 @@
+{    
+	"name": "Essential Tools",    
+	"icon": "create:goggles",
+	"category": "patchouli:tools",
+	"sortnum": -99,
+	"pages": [ 
+		
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "hammer",
+			"recipe": "immersiveengineering:crafting/hammer",
+			"text": "The Engineer's Hammer is the most important tool at your disposal. It will be used to form multiblocks, crush ores into grit, and configure blocks."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "wrench",
+			"recipe": "create:crafting/kinetics/wrench",
+			"text": "The Wrench is a multi-purpose tool for working with kinetic contraptions. Shift-right-click with it to dismantle kinetic components.$(br)It can also be used in place of the Engineer's Hammer in some cases."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "goggles",
+			"recipe": "create:crafting/kinetics/goggles",
+			"text": "Wearing the Engineer's Goggles will allow you to see more details about your kinetic components."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "screwdriver",
+			"recipe": "immersiveengineering:crafting/screwdriver",
+			"text": "The Engineer's Screwdriver is another common item in your toolbox, which you'll need to do precise configuration on certain pieces of machinery."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "screwdriver",
+			"recipe": "create:crafting/kinetics/super_glue",
+			"text": "Super Glue allows you to connect large structures to your $(l:kinetic_machines/contraptions)contraptions$()."        
+		}
+	]
+}

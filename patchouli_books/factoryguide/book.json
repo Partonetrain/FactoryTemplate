@@ -1,0 +1,21 @@
+{
+    "name": "Factory Guide",
+    "book_texture": "patchouli:textures/gui/book_brown.png",
+    "model": "patchouli:book_brown",
+    "landing_text": "A comprehensive guide to building a factory.",
+    "version": "0",
+    "subtitle": "Factories 101",
+    "show_progress": false,
+    "pause_game": false,
+    "creative_tab": "tools",
+    "macros": {
+        "$(wool)": "$(t:Certain blocks crash if rendered in the Patchouli multiblock page, in case you're wondering why this is used instead)",
+		"$(hammer)": "$(l:tools/e_tools#hammer)Engineer's Hammer$()",
+		"$(screwdriver)": "$(l:tools/e_tools#screwdriver)Engineer's Screwdriver$()",
+		"$(wrench)": "$(l:tools/e_tools#wrench)Wrench$()",
+		"$(goggles)": "$(l:tools/e_tools#goggles)Engineer's Goggles$()",
+        "$(ponder)": "$(#808080)Ponder$() this for more details!",
+        "$(pondernote)": "$(italics)Note: $(#808080)Ponder$(#000000) may not respect recipe changes made in the modpack.",
+        "$(bug)": "$(#ff0000)$(t:This feature is bugged, or otherwise not working as intended. Use with caution, or the expectation that it won't work.)(!!!)$()"
+    }
+}

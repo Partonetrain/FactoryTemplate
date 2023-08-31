@@ -1,0 +1,16 @@
+{    
+	"name": "Seats",    
+	"icon": "create:white_seat",    
+	"category": "patchouli:construction",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/white_seat",
+			"text": "Ever wanted to sit down on a comfortable cushion instead of the cold, hard, floor? Craft a seat to do just that.$(br)Seats can be dyed just like wool."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Creatures can be attached to seats by first right-clicking a creature with a Lead and then right-clicking the seat.$(br2)Additionally, seats can be used to sit on $(l:kinetic_machines/contraptions)Contraptions$() or $(l:transportation/trains)Trains$() while they move."
+		}
+	]
+}

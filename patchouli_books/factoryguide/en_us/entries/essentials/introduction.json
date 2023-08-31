@@ -1,0 +1,26 @@
+{    
+	"name": "Introduction",    
+	"icon": "minecraft:book",    
+	"category": "patchouli:essentials",
+	"sortnum": -99,
+	"pages": [        
+		{            
+			"type": "patchouli:text",            
+			"text": "Greetings, and welcome to the world of engineering. This book shall serve as your guide for setting up a factory all your own. With the skills you learn in this book, you can build a factory to mass-produce nearly everything you'd ever need."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Any successful engineer is familiar with both $(italic)Kinetic$() (AKA $(italic)mechanical$()) and $(italic)Electrical$() (AKA $(italic)Flux$()) energy. These two types of energy each have their own machines they can power. The difference is kinetic energy $(bold)can't be stored$().$(br2)Along with energy, you will learn how to transport and store items and fluids."        
+		},
+		{            
+			"type": "patchouli:text",  
+			"title": "Where do I start?",
+			"text": "Assuming your basic survival needs are met, of course, the best place to start would be with $(l:patchouli:essentials/coke_oven)Coke Oven$(). With it, you can make creosote oil and a better fuel."        
+		},
+		{            
+			"type": "patchouli:spotlight",            
+			"item": "immersiveengineering:hammer",            
+			"text": "You will need this to assemble multiblocks, which includes the Coke Oven mentioned previously. For more information, see the $(hammer) entry."        
+		}
+	]
+}

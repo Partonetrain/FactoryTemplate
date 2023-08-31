@@ -1,0 +1,22 @@
+{    
+	"name": "Fluid Barrels",    
+	"icon": "immersiveengineering:wooden_barrel",    
+	"category": "patchouli:storage",
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/wooden_barrel",
+			"text": "$(o)Doesn't roll$()$(br)Wooden fluid barrels are simple containers that can store fluid. They will store up to 12 buckets, but because they are wooden, they can't store any gasses (such as acetaldehyde) or hot fluids (such as lava)."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Right-clicking the top or bottom side of the barrel with a $(hammer) will switch between in-, output or no connection."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"title": "Redstone connector",
+			"recipe": "immersiveengineering:crafting/metal_barrel",
+			"text": "Metal fluid barrels work similar to Wooden Fluid Barrels, but unlike the wooden version, these can store gasses and hot fluids, and won't output automatically if they are disabled by a redstone signal."
+		}
+	]
+}

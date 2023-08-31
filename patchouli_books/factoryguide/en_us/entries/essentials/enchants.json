@@ -1,0 +1,84 @@
+{
+	"name": "Reference: Enchanting",
+	"icon": "minecraft:enchanting_table",
+	"category": "patchouli:essentials",
+	"sortnum": 100,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Even engineers can find use in some magic here and there."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:white_candle",
+			"text": "Placing White Candles near your Enchanting Table will increase the chance of finding an $(bold)Unbreaking$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:orange_candle",
+			"text": "Placing Orange Candles near your Enchanting Table will increase the chance of finding a $(bold)Fire Protection$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:magenta_candle",
+			"text": "Placing Magenta Candles near your Enchanting Table will increase the chance of finding a $(bold)Knockback$() or $(bold)Punch$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:light_blue_candle",
+			"text": "Placing Light Blue Candles near your Enchanting Table will increase the chance of finding a $(bold)Feather Falling$() or $(bold)Stepping$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:yellow_candle",
+			"text": "Placing Yellow Candles near your Enchanting Table will increase the chance of finding a $(bold)Looting$(), $(bold)Fortune$(), or $(bold)Luck of the Sea$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:lime_candle",
+			"text": "Placing Lime Candles near your Enchanting Table will increase the chance of finding a $(bold)Blast Protection$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:pink_candle",
+			"text": "Placing Pink Candles near your Enchanting Table will increase the chance of finding a $(bold)Silk Touch$() or $(bold)Channeling$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:gray_candle",
+			"text": "Placing Gray Candles near your Enchanting Table will increase the chance of finding a $(bold)Bane of Arthropods$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:purple_candle",
+			"text": "Placing Light Blue Candles near your Enchanting Table will increase the chance of finding a $(bold)Sweeping Edge$(), $(bold)Multishot$(), or $(bold)Backstabbing$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:blue_candle",
+			"text": "Placing Blue Candles near your Enchanting Table will increase the chance of finding a $(bold)Efficiency$(), $(bold)Sharpness$(), $(bold)Lure$(), $(bold)Power$(), $(bold)Impaling$(), or $(bold)Quick Charge$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:brown_candle",
+			"text": "Placing Brown Candles near your Enchanting Table will increase the chance of finding an $(bold)Aqua Affinity, $(bold)Depth Strider$(), or $(bold)Riptide$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:green_candle",
+			"text": "Placing Green Candles near your Enchanting Table will increase the chance of finding a $(bold)Thorns$() or $(bold)Piercing$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:red_candle",
+			"text": "Placing Red Candles near your Enchanting Table will increase the chance of finding a $(bold)Fire Aspect$() or $(bold)Flame$() piece."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:black_candle",
+			"text": "Placing Black Candles near your Enchanting Table will increase the chance of finding a $(bold)Smite$() or $(bold)Projectile Protection$() piece."
+		}
+		
+		
+	]
+}

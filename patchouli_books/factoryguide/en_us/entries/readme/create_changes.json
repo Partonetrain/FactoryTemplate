@@ -1,0 +1,33 @@
+{
+	"name": "Create Changes",
+	"icon": "create:wrench",
+	"category": "patchouli:readme",
+	"pages": [{
+		"type": "patchouli:text",
+		"text": "Some changes to the Create mod have been made. They are..."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:name_tag",
+		"title": "Renames",
+		"text": "Mechanical Mixer>Mechanical Whisk$(br)Brass Sheet>Brass Plate$(br)Fluid Tank>Fluid Vessel$(br)Fluid Pipe>Copper Fluid Pipe$(br)Toolbox>Strongbox$(br)Limestone>Marble$(br)Blaze Burner>Blazing Burner"
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "create:mechanical_press",
+		"title": "Press Changes",
+		"text": "The Mechanical Press is no longer used on its own. It is still used for Automated Packing and Compacting recipes. To make plates, use the $(l:tools/e_tools)Engineer's Hammer$()."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "create:mechanical_saw",
+		"title": "Mechanical Saw Changes",
+		"text": "The Mechanical Saw no longer creates extra planks. The $(l:electric_machines/sawmill)sawmill$() from IE continues to, though."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "create:blaze_burner",
+		"text": "The Blazing Burner (formerly Blaze Burner) no longer requires catching a Blaze to obtain (although this method is still possible). Additionally, the recipe for Blazing Fuel (formerly Blaze Cake) has changed."
+	}
+	]
+}

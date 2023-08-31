@@ -1,0 +1,33 @@
+{    
+	"name": "Transmitting Rotation",    
+	"icon": "create:shaft",    
+	"category": "patchouli:transportation",
+	"sortnum": -2,
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/shaft",
+			"text": "Shafts relay rotation in a straight line."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/cogwheel",
+			"text": "Cogwheels relay rotation to adjacent cogwheels."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/large_cogwheel",
+			"text": "Large and small cogwheels can be connected diagonally. When shifting from large to small cogs, the speed will be doubled, and doing the opposite will cause the speed to be halved. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/belt_connector",
+			"text": "Right-clicking two shafts with a Mechanical Belt will connect them together. This can allow conveying rotation horizontally, on the same axis, without using a lot of gears. These can also be used to $(l:transport/item_transportation#create_belt)transport items.$()$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/gearbox",
+			"text": "If you need to, you can create a Gearbox to change the axis of rotation. $(ponder)"
+		}
+	]
+}

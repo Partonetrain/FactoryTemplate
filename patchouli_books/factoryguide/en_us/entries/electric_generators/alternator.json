@@ -1,0 +1,16 @@
+{    
+	"name": "Alternator",    
+	"icon": "rpm2rf:alternator",    
+	"category": "patchouli:electric_generators",
+	"pages": [        
+		{        
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:alternator",
+			"text": "The Alternator converts kinetic energy into electrical energy. The faster the rotation provided to it, the more energy it will generate.$(br)The exact energy formula per tick is y=(x^2)/8 where X is rotations per minute."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "However, as with most kinetic machines, the faster it is running, the more stress it generates on the kinetic network. The Alternator's Kinetic Stress Impact is a whopping $(bold)32x$(). A single $(l:kinetic_generators/waterwheel)Water Wheel$() will be maximally stressed by the Alternator. However, it is a good source of entirely-passive electricity generation, espescially when paired with a $(l:kinetic_generators/windmill)Windmill$() or $(l:kinetic_generators/steam_engine)Steam Engine$()."        
+		}
+	]
+}

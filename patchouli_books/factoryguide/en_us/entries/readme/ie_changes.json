@@ -1,0 +1,40 @@
+{
+	"name": "Immersive Engineering Changes",
+	"icon": "immersiveengineering:hammer",
+	"category": "patchouli:readme",
+	"pages": [{
+		"type": "patchouli:text",
+		"text": "Some changes to the Immersive Engineering mod have been made. They are..."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:name_tag",
+		"title": "Renames",
+		"text": "Fluid Pump>Electric Pump$(br)Lantern>Big Lantern$(br)Conveyor Belt>Rolling Belt$(br)Fluid Pipe>Copper Fluid Pipe"
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "immersiveengineering:dynamo",
+		"title": "Basic Power Generation",
+		"text": "IE's Water Wheel and Windmill are no longer accessible. Use the $(l:electric_generators)Alternator$() with Create's $(l:kinetic_generators)Water Wheels or Windmills$()."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "immersiveengineering:metal_press",
+		"title": "Metal Press Changes",
+		"text": "The Metal Press can no longer use the Packing and Unpacking molds. Use the Mechanical Press instead."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "immersiveengineering:crusher",
+		"title": "Crusher Changes",
+		"text": "The Crusher's yields have changed from the default. Raw ores give 2 grit, and ore blocks give 3 grit."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "immersiveengineering:conveyor_basic",
+		"title": "Rolling Belts",
+		"text": "Conveyor Belts have been retextured and renamed into Rolling Belts. Aside from the Vertical and Extracting belts, related blocks have been removed."
+	}
+	]
+}

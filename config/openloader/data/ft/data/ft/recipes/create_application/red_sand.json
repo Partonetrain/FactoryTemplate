@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "tag": "forge:dyes/red"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:red_sand"
+    }
+  ]
+}

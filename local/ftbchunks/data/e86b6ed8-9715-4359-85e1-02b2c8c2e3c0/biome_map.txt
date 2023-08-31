@@ -1,0 +1,12 @@
+#010 minecraft:forest
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#72D minecraft:snowy_beach
+#68C biomesoplenty:snowy_coniferous_forest
+#4C8 biomesoplenty:snowy_fir_clearing
+#4ED biomesoplenty:snowy_maple_woods
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga
+#152 minecraft:windswept_forest
+#4C3 minecraft:windswept_hills

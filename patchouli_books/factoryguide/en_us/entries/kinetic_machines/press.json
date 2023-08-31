@@ -1,0 +1,16 @@
+{
+	"name": "Mechanical Press",    
+	"icon": "create:mechanical_press",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_press",
+			"text": "The Mechanical Press, when paired with a Basin, will cause items in the basin to be compacted. This includes all 2x2 and 3x3 recipes where all of the ingredients are the same item. $(ponder)"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Fluid Honey and Chocolate can be compacted into an equivalent item using the same method.$(br2)$(italics)Note that the Press cannot make plates. Use the $(hammer)$(italics) for that."
+		}
+	]
+}

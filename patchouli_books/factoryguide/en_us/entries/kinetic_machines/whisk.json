@@ -1,0 +1,17 @@
+{
+	"name": "Mechanical Whisk",    
+	"icon": "create:mechanical_mixer",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_mixer",
+			"text": "The Whisk, when paired with a Basin, can be used to automate shapeless recipes and to mix fluids. Some special recipes, such as for Builder's Tea, are available. $(ponder)"
+		},
+		{
+			"type": "patchouli:text",
+			"flag": "mod:sliceanddice",
+			"text": "The Mechanical Whisk can also be used for $(l:construction/cooking#pot)Cooking Pot recipes$()."
+		}
+	]
+}

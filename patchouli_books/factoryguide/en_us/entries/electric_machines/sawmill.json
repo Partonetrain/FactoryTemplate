@@ -1,0 +1,49 @@
+{    
+	"name": "Sawmill",    
+	"icon": "immersiveengineering:sawmill",    
+	"category": "patchouli:electric_machines",    
+	"pages": [ 
+	{            
+			"type": "patchouli:multiblock",
+			"name": "Sawmill",
+			"multiblock": {
+				"pattern": [
+				["   IR_", "CCCHC_", " LLL _"],
+				["SIIIS_", "SHSSS0", "SLLLS_"]
+				],
+				"mapping": {
+					"L": "immersiveengineering:light_engineering",
+					"R": "immersiveengineering:rs_engineering",
+					"S": "immersiveengineering:steel_scaffolding_standard",
+					"I": "immersiveengineering:sheetmetal_iron",
+					"H": "immersiveengineering:heavy_engineering",
+					"C": "minecraft:orange_carpet"
+				}
+			},
+			"text": "The structure is built from the following $(t:8 Steel Scaffolding Blocks, 4 Iron Sheetmetal Blocks, 6 Light Engineering Blocks, 2 Heavy Engineering Blocks, 4 Conveyor Belts, and A Redstone Engineering Block.)$(#007500)blocks$(). $(wool)($(#007500)Orange carpet$() in place of rolling belts)"        
+		},	
+		{            
+			"type": "patchouli:text", 
+			"text": "The sawmill is a machine assembly which cuts wooden logs into more efficiently than other means. The machine operates in two stages by first stripping the bark of the log and then using a sawblade to cut the stripped log apart."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "The machine is built as shown on the first page and formed by using an $(hammer) on the central sheetmetal block. $(br)Applying a redstone signal to the control panel at the front will stop the machine, this behavior can be inverted by use of the $(screwdriver)."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/paper_from_sawdust",
+			"title": "Secondary Outputs",
+			"text": "The first step of the process creates $(#007500)Tree Bark$(), and the second step creates $(#007500)Sawdust$(). Both are output through the port at the front of the machine, and both can then be processed into paper later on."        
+		},
+		{            
+			"type": "patchouli:crafting",    
+			"recipe": "crafttweaker:sawblade",          
+			"text": "To be fully ready for processing, you will need to craft a sawblade and insert it into the slot on the back by right-clicking.$(br)Sneak and right-click to take the sawblade out again (but $(bold)do not$() attempt to do this while the sawmill is running). "        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "The sawblade will be damaged while it's in use and may need to be replaced after a while. Running logs through the machine without a sawblade will create $(#007500)stripped logs$() that will not be cut apart. This process is much quicker than stripping them manually.$(br2)The sawmill is also capable of reclaiming planks from wood-derived blocks such as doors and bookshelves."        
+		}
+	]
+}

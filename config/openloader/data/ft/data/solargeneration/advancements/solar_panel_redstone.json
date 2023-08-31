@@ -1,0 +1,37 @@
+{
+  "parent": "solargeneration:solar_panel_hardened",
+  "criteria": {
+    "inv_changed": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "solargeneration:solar_panel_redstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.solargeneration.solar_panel_redstone.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "solargeneration:solar_panel_redstone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.solargeneration.solar_panel_redstone"
+    }
+  },
+  "requirements": [
+    [
+      "inv_changed"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{    
+	"name": "Coke Oven",    
+	"icon": "immersiveengineering:coke_oven",
+	"category": "patchouli:essentials",
+	"sortnum": -4,    
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/cokebrick",
+			"text": "The Coke Oven is the first important structure you will need to construct for your engineering endeavors. Its functionality is simple, it will heat up Coal or Coal blocks without supplying it with oxygen, creating Coal Coke, a carbon rich fuel."
+		},
+		{            
+			"type": "patchouli:multiblock",
+			"name": "Coke oven",
+			"multiblock": {
+				"pattern": [
+				["CCC_", "CCC_", "CCC_"],
+				["CCC_", "CCC_", "CCC_"],
+				["CCC_", "CCC0", "CCC_"]
+				],
+				"mapping": {
+					"C": "immersiveengineering:cokebrick"
+				}
+			},
+			"text": "The structure is built from the following $(t:27 Coke Oven Bricks)$(#007500)blocks$()."        
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "To form the multiblock, right-click the middle block of one side with an $(hammer). $(br2)In addition, the process of creating Coal Coke generates $(l)Creosote Oil$() as a byproduct, which is used as a preservative for wood. $(br)You can also burn wood logs into Charcoal with this oven, albeit with a smaller yield of creosote."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/treated_wood_horizontal",
+			"text": "On top of looking nice for building, Treated Wood has a wide variety of uses. Make sure to make a lot of it."
+		}
+	]
+}

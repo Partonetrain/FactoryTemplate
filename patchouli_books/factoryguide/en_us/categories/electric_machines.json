@@ -1,0 +1,6 @@
+{    
+	"name": "Electric Machines",
+	"description": "Machines that consume electricity. A lot of these are multiblocks.$(br2)$(italics)Note: if you aren't a fan of the Patchouli multiblock previews, $(l:construction/schematics)Schematic$()$(italics) files are provided for the unassembled multiblocks.",  
+	"icon": "immersiveengineering:crusher",
+	"sortnum": 8
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Crushing Wheels",    
+	"icon": "create:crushing_wheel",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:spotlight",
+			"item": "create:crushing_wheel",
+			"text": "With a pair of Crushing Wheels, you'll be able to crush ores (and a variety of other things). After being crafted with at least 21 $(l:kinetic_machines/crafter)Mechanical Crafters$(), Crushing Wheels that are placed 1 block apart and have opposite rotation provided to them will crush anything (or anyone) that finds itself between them. $(ponder)"
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "Additionally, the trace amounts of metals in different types of stone and their derivative blocks can be salvaged with the Crushing Wheels. For instance, crushing Shale blocks may grant you some Crushed Raw Copper."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Trade-offs",
+			"anchor": "bonus",
+			"text": "While the Crushing Wheels will never be as precise as the $(l:electric_machines/crusher)Industrial Crusher$(), and thus will yield less ingots per ore, this can also be an advantage. The impurities of the crushed ore can be $(l:kinetic_machines/fan#washing)washed away$() and may be useful in their own right.$(br2)A smart engineer will use both the Crushing Wheels and an Industrial Crusher depending on their resource needs."
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "For instance, crushing Raw Iron in the Crushing Wheels will yield Crushed Raw Iron and a Nugget of Experience. $(l:kinetic_machines/fan#washing)Washing$() the Crushed Raw Iron will yield an ingot's worth of Iron Nuggets, and possibly some Nickel Nuggets, for a total yield of 1 Iron Ingot, 1 Experience Nugget, and possibly 1/3rd of a Nickel Ingot.$(br)Crushing Raw Iron in the $(l:electric_machines/crusher)Industrial Crusher$() will instead yield 2 Iron Ingots by the end of processing."
+		}
+	]
+}

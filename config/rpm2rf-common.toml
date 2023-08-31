@@ -1,0 +1,21 @@
+
+#These are not synced over the network, so make sure client/server have same config values.
+#Alternator
+[alternator]
+	#Stress Units generated per RPM
+	#Range: > 0
+	stress_multiplier = 32
+	#Alternator internal capacity in FE.
+	#Range: > 1
+	generator_capacity = 8192
+	#Alternator max energy output in FE (Energy transfer, not generation).
+	#Note: ~4096 FE/t is the highest transfer rate in multiple mods.
+	#Range: > 1
+	generator_max_output = 8192
+	#Alternator divisor. Since the FE/t formula is (fe=(rpm^2)/divisor), lower numbers make power ramp up per RPM faster.
+	#Range: > 1
+	generator_divisor = 8
+	#Alternator multiplier. This is applied after all other power calculations. Can be useful to quickly nerf the alternator.
+	#Range: 0.01 ~ 1.0
+	generator_multiplier = 1.0
+

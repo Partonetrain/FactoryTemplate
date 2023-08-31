@@ -1,0 +1,13 @@
+{
+	"type": "immersiveengineering:bottling_machine",
+	"fluid": {
+		"amount": 250,
+		"tag": "forge:tea"
+	},
+	"input": {
+		"item": "minecraft:glass_bottle"
+	},
+	"results": [{
+		"item": "create:builders_tea"
+	}]
+}

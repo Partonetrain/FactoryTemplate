@@ -1,0 +1,216 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "item",
+			"name": "minecraft:raw_iron",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 10
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:raw_copper",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 10
+					}
+				}]
+		}, 
+		{
+			"type": "item",
+			"name": "create:raw_zinc",
+			"weight": 20,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 10
+					}
+				}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:raw_gold",
+			"weight": 15,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 3,
+					"max": 8
+				}
+			}]
+		},
+		{
+			"type": "item",
+			"name": "immersiveengineering:raw_lead",
+			"weight": 15,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 3,
+					"max": 8
+				}
+			}]
+		},
+		{
+			"type": "item",
+			"name": "immersiveengineering:raw_silver",
+			"weight": 15,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 3,
+					"max": 8
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:diamond",
+			"weight": 10,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 2
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:cobweb",
+			"weight": 30,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 3,
+					"max": 10
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:tnt",
+			"weight": 10,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 1,
+					"max": 3
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:zombie_head",
+			"weight": 10
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:creeper_head",
+			"weight": 10
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:skeleton_skull",
+			"weight": 10
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:bone_block",
+			"weight": 40,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 8,
+					"max": 16
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:coal",
+			"weight": 40,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 12,
+					"max": 24
+				}
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:bread",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 4,
+					"max": 8
+				}
+			}]
+		}, {
+			"type": "item",
+			"name": "minecraft:rabbit_hide",
+			"weight": 25,
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"min": 8,
+					"max": 16
+				}
+			}]
+		}, 
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_golden_apple",
+			"weight": 1
+		},
+		{
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [{
+              "function": "minecraft:enchant_randomly"
+           }]
+        },
+		{
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:music_discs",
+		  "weight": 5
+        },
+		{
+			"type": "item",
+			"name": "quark:monster_box",
+			"weight": 1
+		},
+		{
+			"type": "item",
+			"name": "immersiveengineering:shader_bag_common",
+			"weight": 3
+		},
+		{
+			"type": "item",
+			"name": "immersiveengineering:shader_bag_epic",
+			"weight": 2
+		},
+		{
+			"type": "item",
+			"name": "immersiveengineering:shader_bag_ie_masterwork",
+			"weight": 1
+		}
+		]
+	}]
+}

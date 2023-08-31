@@ -1,0 +1,16 @@
+{    
+	"name": "Razor Wire",    
+	"icon": "immersiveengineering:razor_wire",    
+	"category": "patchouli:construction",
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "immersiveengineering:crafting/razor_wire",
+			"text": "Razor Wire is a wire with sharpened pieces of metal attached. It will slow and cut anything that tries to move through it."        
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "It can only be removed with $(l:transportation/power_transportation#wirecutters)Engineer's Wire Cutters$(), and any other attempts to do so will harm whoever tries. Additionally, an LV wire can be connected to electrify the Razor Wire for extra damage."        
+		}
+	]
+}

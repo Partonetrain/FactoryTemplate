@@ -1,0 +1,17 @@
+{    
+	"name": "Item Vault",    
+	"icon": "create:item_vault",    
+	"category": "patchouli:storage",
+	"sortnum": -1,
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/item_vault",
+			"text": "Item Vaults are expandable multi-block structures for storing large amounts of items. They must be placed in a horizontal rectangular prism shape."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "However, items cannot be added or extracted from them manually. This may seem like a straight disdvantage over other means of fluid storage, but Item Vaults are much easier to expand, and they can be attached to $(l:transportation/trains)Trains$()."
+		}
+	]
+}

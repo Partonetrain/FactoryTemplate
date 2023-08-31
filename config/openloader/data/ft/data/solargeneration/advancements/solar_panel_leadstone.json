@@ -1,0 +1,37 @@
+{
+  "parent": "solargeneration:root",
+  "criteria": {
+    "inv_changed": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "solargeneration:solar_panel_leadstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.solargeneration.solar_panel_leadstone.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "solargeneration:solar_panel_leadstone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.solargeneration.solar_panel_leadstone"
+    }
+  },
+  "requirements": [
+    [
+      "inv_changed"
+    ]
+  ]
+}

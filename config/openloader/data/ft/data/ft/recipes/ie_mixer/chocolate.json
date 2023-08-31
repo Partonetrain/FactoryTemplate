@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:mixer",
+  "energy": 800,
+  "fluid": {
+    "amount": 250,
+    "tag": "forge:milk"
+  },
+  "inputs": [
+    {
+      "item": "minecraft:sugar"
+    },
+	{
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "amount": 250,
+    "fluid": "create:chocolate"
+  }
+}

@@ -1,0 +1,46 @@
+{    
+	"name": "Computers",    
+	"icon": "computercraft:computer_advanced",    
+	"category": "patchouli:construction",
+	"sortnum": 99,
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:computer",
+			"text": "Using a $(l:construction/logic_circuits#logicunit)Logic Unit$(), you can create a Computer, which offers an interface for programming. Computers offer an entirely new type of engineering in $(bold)scripting$(). With the Lua language, a proficient software engineer could control their whole base from their desk."
+		},
+		{
+			"type": "patchouli:link",
+			"url": "https://tweaked.cc/",
+			"link_text": "CC: Tweaked Wiki",
+			"text": "Software engineering is an entire field that is not covered by this book, although it is easy to find resources on it. It's also not necessary to build a factory."
+		},
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "crafttweaker:pocket_computer",
+			"text": "If you want to bring a computer with you, you can craft a Pocket Computer. Attaching a Modem to this and a Computer on the ground could allow you to communicate wirelessly."        
+		},
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "crafttweaker:turtle",
+			"text": "Robotics always follows computing, and will a Turtle you can program your own robot."        
+		},
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "crafttweaker:monitor",
+			"title": "Peripherals",
+			"text": "There are a variety of peripherals available to computers and turtles, such as Printers, Speakers, and Monitors."     
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Scripting is difficult, but it can be a great boon to your logistics.$(br2)Alternatively, you could always slack off from your engineering duties to play $(bold)adventure$() or $(bold)worm$(). You could also host a $(bold)dance$() party with a bunch of turtles. "
+		},
+		{
+			"type": "patchouli:link",
+			"text": "$(italics)Oh, by the way, check out Cloud Catcher. $(br2)\"Cloud Catcher is a web terminal for ComputerCraft, allowing you to interact with any in-game computer in the browser, as well as edit files remotely!\"",
+			"url": "https://cloud-catcher.squiddev.cc/",
+			"link_text": "CloudCatcher"
+		}
+		
+	]
+}

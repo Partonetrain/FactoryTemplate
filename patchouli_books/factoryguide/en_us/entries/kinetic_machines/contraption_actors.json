@@ -1,0 +1,37 @@
+{
+	"name": "Contraption Actors",    
+	"icon": "create:mechanical_harvester",    
+	"category": "patchouli:kinetic_machines",
+	"sortnum": -4,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The following blocks are useful on $(l:kinetic_machines/contraptions)Contraptions$().$(br)Other Kinetic Machines, such as the $(l:kinetic_machines/drill)Mechanical Drill$(), may also act as Contraption Actors. See their entries for more information."
+		},
+				{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/contraption_controls",
+			"text": "Contraption Actors are enabled by default when the contraption is assembled. Use Contraption Controls to disable them.$(br2)$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_harvester",
+			"text": "When attached to a moving contraption, Mechanical Harvesters will harvest, store, and re-plant crops.$(br2)$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_plough",
+			"text": "When attached to a moving contraption, Mechanical Plows will break blocks without collision, till dirt, and launch entities.$(br2)$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_roller",
+			"text": "Mechanical Rollers cam be used for paving paths. $(br2)$(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/portable_storage_interface",
+			"text": "A pair of Portable Storage Interfaces, one attached to the contraption and one not, will enable the contraption to stop and place its stored items in other containers.$(br)Portable Fluid Interfaces work similarly.$(br)$(ponder)"
+		}
+	]
+}

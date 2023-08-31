@@ -1,0 +1,25 @@
+{    
+	"name": "Posts and Mounts",    
+	"icon": "immersiveengineering:treated_post",    
+	"category": "patchouli:construction",
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",      
+			"recipe": "crafttweaker:extendable_post",
+			"text": "Poles can be use for attachment points for Wire Connectors. After placing an Extendable Post, you can put any metal fence down the middle to create a $(l)pole$(), and keep placing them as high as you like. Treated Wood Fences work, too."        
+		},
+		{            
+			"type": "patchouli:text",
+			"text": "Using an $(hammer) on a pole that has been inserted into a post will attach an arm to it. Using the Hammer on an arm will further extend it. $(br)You can also place a $(l:transportation/power#transformer)Transformer$() on the pole, which makes it less obtrusive.$(br)If you need to, you can place solid blocks on Extendable Posts to hide them."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/treated_wallmount",
+			"recipe2": "immersiveengineering:crafting/steel_wallmount"        
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Similarly, wallmounts can be used to place wire connectors upright or upside-down on walls."
+		}
+	]
+}

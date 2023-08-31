@@ -1,0 +1,37 @@
+{
+  "parent": "solargeneration:solar_panel_resonant",
+  "criteria": {
+    "inv_changed": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "solargeneration:solar_panel_advanced"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.solargeneration.solar_panel_advanced.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "solargeneration:solar_panel_advanced"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.solargeneration.solar_panel_advanced"
+    }
+  },
+  "requirements": [
+    [
+      "inv_changed"
+    ]
+  ]
+}

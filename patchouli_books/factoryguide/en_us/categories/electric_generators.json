@@ -1,0 +1,6 @@
+{    
+	"name": "Electric Generators",
+	"description": "Generators of $(strike)Forge Energy$() Electricity.",  
+	"icon": "rpm2rf:alternator",
+	"sortnum": 7
+}

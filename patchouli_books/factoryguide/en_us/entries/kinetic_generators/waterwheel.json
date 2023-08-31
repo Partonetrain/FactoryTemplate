@@ -1,0 +1,18 @@
+{
+	"name": "Water Wheels",
+	"icon": "create:water_wheel",
+	"category": "patchouli:kinetic_generators",
+	"sortnum": 2,
+	"pages": [
+	{
+		"type": "patchouli:crafting",
+		"recipe": "create:crafting/kinetics/water_wheel",
+		"text": "Water Wheels generate rotational force from adjacent flowing water. $(ponder)"
+	},
+	{
+		"type": "patchouli:crafting",
+		"recipe": "craftweaker:large_water_wheel",
+		"text": "Large Water Wheels are slower, sturdier forms of water wheels. They rotate at half the speed, but have twice as much stress capacity. $(ponder)"
+	}
+	]
+}

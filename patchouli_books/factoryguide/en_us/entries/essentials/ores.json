@@ -1,0 +1,82 @@
+{
+	"name": "Reference: Ores",
+	"icon": "minecraft:iron_ore",
+	"category": "patchouli:essentials",
+	"sortnum": 99,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "A variety of ores populate the underground - all of them useful in some way."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:copper_ore",
+			"text": "Copper Ore is found in the world between layers -16 and 112, and requires a Stone Pickaxe to harvest.  $(br)Copper is useful for low-voltage power transfer."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:iron_ore",
+			"text": "Iron Ore is found in the world between layers -32 and 320, and requires a Stone Pickaxe to harvest.  $(br)Iron is extremely useful in industrial applications, both as itself and as a component in steel."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:gold_ore",
+			"text": "Gold Ore is found in the world between layers -64 and 32, and requires a Stone Pickaxe to harvest. It may be found at higher layers in Badlands biomes."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:ore_aluminum",
+			"text": "Bauxite Ore is found in the world between layers 32 and 112, and requires a Stone Pickaxe to harvest. $(br)The raw ore will smelt into aluminium ingots, which is an integral part of high-voltage architecture."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:ore_lead",
+			"text": "Lead Ore is found in the world between layers -32 and 80, and requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into lead ingots, which are used in creating early accumulators."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:ore_silver",
+			"text": "Silver Ore is found in the world between layers -48 and 32, and requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into silver ingots, which alloy with gold to create electrum, a far more effective conductor."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:ore_nickel",
+			"text": "Nickel Ore is found in the world between layers -64 and 24, but more abundantly below -8. It requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into nickel ingots, which alloy with copper to create constantan, a heat resistant conductor used in the construction of $(l:patchouli:electric_generation/thermoelectric_generator)Thermoelectric Generators$()."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:ore_uranium",
+			"text": "Uranium Ore is found in the world between layers -64 and -16, and requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into uranium ingots, but there are currently not many uses for the metal. A uranium block can serve as a heatsource for the $(l:patchouli:electric_generation/thermoelectric_generator)Thermoelectric Generator$() and the metal will be used in future endeavours."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:coal_ore",
+			"text": "Coal Ore is found in the world at all layers, and requires a Wooden Pickaxe to harvest.  $(br)It is a basic fuel, high in carbon."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:redstone_ore",
+			"text": "Redstone Ore is found in the world between layers -64 and 15, and requires a Iron Pickaxe to harvest.  $(br)Redstone Dust is capable of transmitting short, non-electrical signals, which has many uses."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:lapis_ore",
+			"text": "Lapis Lazuli Ore is found in the world between layers -64 and 64, and requires a Stone Pickaxe to harvest. $(br)It is not so useful in engineering, although it is known to have photovoltaic properties, strangely enough."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "overworld_quartz_ore:quartz_ore",
+			"text": "Quartz Ore is found in the world between layers 10 and 117, and requires a Stone Pickaxe to harvest. $(br)It is used in some electronic components. "
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:diamond_ore",
+			"text": "Diamond Ore is found in the world at the lowest layers, between -64 and 16. It requires a Iron Pickaxe to harvest. $(br)It is the hardest substance, although it is not exceptionally useful in engineering."
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "minecraft:emerald_ore",
+			"text": "Emerald Ore is found only in mountainous biomes between layers -16 and 256. It requires a Iron Pickaxe to harvest. $(br)It is used as a currency among the residents of this world. While not exceptionally useful in engineering, it can be used to trade with villagers knowledgeable in engineering."
+		}
+	]
+}

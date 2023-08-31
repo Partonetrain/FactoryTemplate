@@ -1,0 +1,42 @@
+{
+	"name": "Encased Fan",    
+	"icon": "create:encased_fan",    
+	"category": "patchouli:kinetic_machines",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/encased_fan",
+			"text": "The Encased Fan, when provided with Rotational Force, will create an air current. Air currents blowing into one of the following blocks will process items in different ways, depending on the block placed. $(ponder)"
+		},
+		{            
+			"type": "patchouli:spotlight",
+			"title": "Lava Processing",
+			"item": "minecraft:lava_bucket",
+			"text": "Items on a belt, depot, or sitting in front of an air flow that has been heated by Lava will be $(bold)smelted$(). Food items, however, will be incinerated."
+		},
+		{            
+			"type": "patchouli:spotlight",
+			"title": "Water Processing",
+			"anchor": "washing",
+			"item": "minecraft:water_bucket",
+			"text": "Items on a belt, depot, or in front of an air flow that has been cooled by Water will be $(bold)washed$(). This is a new type of recipe that can't be utilized without Fans."
+		},
+		{            
+			"type": "patchouli:spotlight",
+			"title": "Fire Processing",
+			"item": "minecraft:campfire",
+			"text": "Food items on a belt, depot, or sitting in front of an air flow that has been heated by Fire will be $(bold)smoked$()."
+		},
+		{            
+			"type": "patchouli:spotlight",
+			"title": "Soul Fire Processing",
+			"item": "minecraft:soul_campfire",
+			"text": "Items on a belt, depot, or sitting in front of an air flow that has been heated by Soul Fire will be $(bold)haunted$(). This is a new type of recipe that can't be utilized without Fans."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Protip: Air flows can be in any direction, and can go through non-solid blocks like slabs, bars, and panes. "
+		}
+		
+	]
+}

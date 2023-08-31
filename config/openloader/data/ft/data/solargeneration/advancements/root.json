@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "inv_changed": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "solargeneration:photovoltaic_cell"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "solargeneration:textures/gui/advancements.png",
+    "description": {
+      "translate": "advancements.solargeneration.root.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "solargeneration:photovoltaic_cell"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.solargeneration.root"
+    }
+  },
+  "requirements": [
+    [
+      "inv_changed"
+    ]
+  ]
+}

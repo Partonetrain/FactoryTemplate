@@ -1,0 +1,22 @@
+{    
+	"name": "Solar Panels",    
+	"icon": "solargeneration:solar_panel_leadstone",    
+	"category": "patchouli:electric_generators",
+	"pages": [        
+		{        
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:solar_cell",
+			"recipe2": "crafttweaker:solar_core"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:lv_solar",
+			"text": "Solar Panels generate electricity from sunlight. The exact amount generated is dependent on the Solar Panel's tier and time of day. The amount of power generated can be considered negligible, but they can be useful to supplement your power generation."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "solargeneration:solar_helmet_hardened",
+			"text": "If you are so inclined, you can attach solar panels to helmets, and the Solar Panel will continue to work outdoors and during the day. These can be especially useful if you're wearing an $(l:tools/accumulator_backpack)Accumulator Backpack$()."        
+		}
+	]
+}

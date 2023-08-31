@@ -1,0 +1,24 @@
+{
+	"block.quark.iron_plate": "Plating",
+	"block.quark.rusty_iron_plate": "Rusty Plating",
+	"block.quark.iron_plate_stairs": "Plating Stairs",
+	"block.quark.rusty_iron_plate_stairs": "Rusty Plating Stairs",
+	"block.quark.iron_plate_slab": "Plating Slab",
+	"block.quark.rusty_iron_plate_slab": "Rusty Plating Slab",
+	"block.quark.iron_plate_vertical_slab": "Plating Vertical Slab",
+	"block.quark.rusty_iron_plate_vertical_slab": "Rusty Plating Vertical Slab",
+	"block.quark.pipe": "Copper Tube",
+	"block.quark.encased_pipe": "Encased Copper Tube",
+	"block.quark.blaze_lantern": "Blazing Lantern",
+	"block.quark.ender_watcher": "Watcher",
+	"block.quark.bonded_ravager_hide": "Bonded Large Hide",
+	"block.quark.bonded_rabbit_hide": "Bonded Small Hide",
+	
+	"item.quark.dragon_scale": "Mysterious Scale",
+	"item.quark.ravager_hide": "Large Hide",
+	
+	"quark.subtitles.pipe_shoot": "Tube ejects",
+	"quark.subtitles.pipe_pickup": "Tube absorbs",
+	"quark.subtitles.pipe_shoot_lenny": "Tube nuts",
+	"quark.subtitles.pipe_pickup_lenny": "Tube succ"
+}

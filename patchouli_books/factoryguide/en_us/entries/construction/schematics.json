@@ -1,0 +1,31 @@
+{    
+	"name": "Using Schematics",    
+	"icon": "create:empty_schematic",    
+	"category": "patchouli:construction",
+	"pages": [
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/schematics/empty_schematic",
+			"text": "Schematics can be used to duplicate builds easily.$(br2)$(italics)If you need to conceptualize something in a Creative Test World and then reconstruct it in Survival, Schematics can do just that!"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/schematics/schematic_and_quill",
+			"text": "To save a schematic, use the Schematic and Quill.$(br2)$(italics)Using this will save it to a file in in your installation, under the schematics directory$()."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/schematics/schematic_table",
+			"text": "After saving a schematic, you will need to write to an Empty Schematic using the Schematic Table. Use a written-to schematic in the world to designate a location and rotation for it."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/schematics/schematicannon",
+			"text": "And finally, after assigning a location to a written-to schematic, it can be placed in a Schematicannon to \"print\" it.$(br2)Place a container next to it with the required blocks, and place Gunpowder in the cannon."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "$(italics)Some blocks will not function correctly when used with schematics or the schematicannon. Don't bother trying to print assembled multiblocks, they will be invisible and nonfunctional."
+		}
+	]
+}

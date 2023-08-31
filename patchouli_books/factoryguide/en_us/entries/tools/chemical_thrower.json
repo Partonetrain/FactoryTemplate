@@ -1,0 +1,56 @@
+{    
+	"name": "Chemicals and Thrower",    
+	"icon": "immersiveengineering:chemthrower",    
+	"category": "patchouli:tools",    
+	"pages": [
+		
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/redstone_acid",
+			"text": "When used in a $(l:tools/chemical_thrower#thrower)Chemical Thrower$(), Redstone Acid can be used to oxidize copper blocks, producing a beautiful patina. $(br)The same effect can be achieved by using a $(l:patchouli:electric_machines/bottling_machine)Bottling Machine$(), using an eighth of a bucket to age a block of copper."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "The acid is not strong enough to dissolve organic matter, but it is mildly corrosive to metal and acts as an excellent electrolyte for $(l:patchouli:storage/accumulators)Accumulators$(). $(br2)For mass production, the acid can be easily created in a $(l:patchouli:electric_machines/mixer)Mixer$(), using 1 piece of $(#007500)Redstone Dust$() for one quarter of a bucket of water."        
+		},
+		{
+			"type": "patchouli:spotlight",
+			"item": "immersiveengineering:herbicide_bucket",
+			"text": "When loaded into the $(l:tools/chemical_thrower#thrower)Chemical Thrower$(), Herbicide is dispersed as a fine mist, which withers and destroys any plants it comes in contact with. The fluid will remove leaves from trees, destroy flowers, bushes and crops and strip the grass from dirt. It will also dehydrate and ruin farmland."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "To craft Herbicide, mix half a bucket of $(l:patchouli:electric_machines/fermenter)Ethanol$() with $(#007500)Copper Dust$() and $(#007500)Sulfur Dust$() in the $(l:patchouli:electric_machines/mixer)Mixer$()."
+		},    
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/chemthrower",
+			"anchor": "thrower",
+			"text": "The Chemical Thrower is a device that propels fluids from its internal tank. The device can be loaded with any fluid, liquid or gas, and, on right click, will spray it out."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "It also features a function to ignite the fluid, if it is flammable. To toggle the pilot light, sneak and rightclick. $(br)Like some other tools, the chemical thrower can be modified in the $(l:essentials/workbench_and_blueprints)Engineer's Workbench$(). These upgrades affect the size of the tank, range and spread."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_drill_capacity",
+			"text": "The $(#007500)Large Tank$() increases the fluid capacity of the Chemical Thrower by 2000 mb."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_chemthrower_focus",
+			"text": "The $(#007500)Focused Nozzle$() decreases the spread of fluids sprayed out and also slightly increases their range, allowing you to hit further targets with more precision."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/toolupgrade_chemthrower_multitank",
+			"text": "The $(#007500)Multitank$() allows the Chemthrower to store up to three different Fluids."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "You can select the active tank by sneaking and using the scrollwheel, or through use of the keybind Switch Chemthrower Tanks if it has been set in the options. $(br)This upgrade is mutually exclusive to the $(#007500)Large Tank$()."        
+		}
+		
+	]
+}

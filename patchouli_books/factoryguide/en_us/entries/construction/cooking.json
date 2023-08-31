@@ -1,0 +1,35 @@
+{    
+	"name": "Cooking Appliances",    
+	"icon": "farmersdelight:cooking_pot",
+	"category": "patchouli:construction",    
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "farmersdelight:cutting_board",
+			"text": "With a cutting board, you can chop your meat and crops into smaller pieces to cook with them more efficiently. You'll need to craft a knife. You can quickly chop up entire stacks by putting the ingredient in your off-hand and your knife in your main hand."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "farmersdelight:stove",
+			"text": "The Stove is a more refined campfire. It can cook 6 items at a time instead of just 4. Cooked items will still pop off, so be ready to catch them."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "farmersdelight:cooking_pot",
+			"anchor": "pot",
+			"text": "What's better than a hot meal after a long day of engineering? With the Cooking Pot, the culinary world is unlocked to you. It needs to be placed on top of a Campfire or Stove (or on top of a Hopper that's on top of one of those blocks)."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "farmersdelight:skillet",
+			"text": "If you prefer, you can also cook items on the Skillet (as long as it is above a Stove or Campfire). It can hold a stack at a time. Cooked items will pop off."        
+		},
+		{
+			"flag": "mod:sliceanddice",
+			"title": "Alternative Automation",
+			"type": "patchouli:spotlight",
+			"item": "create:mechanical_mixer",
+			"text": "You can also automate Cutting Board recipes with a $(l:compat/kinetic_machines/slicer)Slicer$(), and Cooking Pot recipes using the $(l:kinetic_machines/whisk)Mechanical Whisk$()."
+		}
+	]
+}

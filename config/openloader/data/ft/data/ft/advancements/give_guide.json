@@ -1,0 +1,11 @@
+{
+	"parent": "ft:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"loot": ["ft:give_guide"]
+	}
+}

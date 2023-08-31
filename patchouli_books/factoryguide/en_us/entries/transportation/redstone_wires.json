@@ -1,0 +1,51 @@
+{    
+	"name": "Transmitting Redstone Signals",    
+	"icon": "immersiveengineering:wirecoil_redstone",    
+	"category": "patchouli:transportation",  
+	"sortnum": 10,	
+	"pages": [        
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "immersiveengineering:crafting/wirecoil_redstone",
+			"text": "$(#007500)Redstone Wires$() are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing any signal strength."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"title": "Redstone connector",
+			"recipe": "immersiveengineering:crafting/connector_redstone",
+			"text": "The connectors work like any other wire connector in terms of connecting them, however, redstone wiring does not require relays; connectors and relays are the same block."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "With the Engineer's Screwdriver, the connectors can be configured between in- and output mode and set to one of 16 coloured frequencies."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"title": "Redstone probe",
+			"recipe": "immersiveengineering:crafting/connector_probe",
+			"text": "$(#007500)Redstone Probe Connectors$() have a functionality partially comparable to Redstone Comparators. While they are not able to actively compare signals, they are able to read inventories for how full they are."
+		},
+		{            
+			"type": "patchouli:text",            
+			"text": "Additionally, these probes can operate on two channels, sending their read signal on one, and still receiving signals on another. These channels can be also configured by using the Engineer's Screwdriver. $(br2)Note that many multiblocks feature Redstone Comparator. Where available, the redstone control surface of the multiblock is the designated spot to connect a comparator."        
+		},
+		{            
+			"type": "patchouli:crafting",
+			"anchor": "interface",
+			"title": "Redstone interface",
+			"recipe": "immersiveengineering:crafting/connector_bundled",
+			"text": "Redstone Interface Connectors are designed to be attached to other blocks that can make use of the coloured redstone signals. The interface connector is innert and does not posses a colour, input- or output-state."        
+		},
+		{            
+			"type": "patchouli:link",
+			"url": "https://tweaked.cc/module/redstone.html",
+			"link_text": "CC:Tweaked Wiki",
+			"text": "$(t:construction/computers)Computers$() can utilize Redstone Interface Connectors. The relevant Lua commands are:$(br)$(li)rs.setBundledOutput(side, output)$(li)getBundledOutput(side)$(li)getBundledInput(side)$(li)testBundledInput(side, mask)$(br2)$(br2)$(italics)Click the button below for more information."        
+		},
+		{            
+			"type": "patchouli:text",  
+			"title": "Color Enums",
+			"text": "$(li)colors.white = 1$(li)colors.orange = 2$(li)colors.magenta = 4$(li)colors.lightBlue = 8$(li)colors.yellow = 16$(li)colors.pink = 64$(li)colors.gray = 128$(li)colors.lightGray = 256$(li)colors.cyan = 512$(li)colors.purple = 1024$(li)colors.purple = 2048$(li)colors.blue = 4096$(li)colors.brown = 4096$(li)colors.green = 8192$(li)colors.red = 16384$(li)colors.black = 32768"        
+		}
+	]
+}

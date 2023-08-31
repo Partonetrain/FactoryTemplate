@@ -1,0 +1,37 @@
+{
+	"name": "Contraptions",    
+	"icon": "create:mechanical_bearing",    
+	"category": "patchouli:kinetic_machines",
+	"sortnum": -5,
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "Contraptions are moving multiblocks, designed entirely by you, using your imagination. The possibilites for contraptions are endless!  $(br2)$(l:transportation/trains)Trains$() are also contraptions."
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/super_glue",
+			"text": "For blocks to move together in an assembeled contraption, you must use Super Glue. Right-click two positions to glue everything between said to points together, and left-click while holding Super Glue to clear glued areas. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_bearing",
+			"text": "Mechanical Bearings attach to blocks in front of them. When provided with rotational force, a contraption will be assembled, and attached blocks will rotate. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/cart_assembler",
+			"text": "When a redstone signal is provided, minecarts passing under the Cart Assembler will be turned into contraptions-on-rails. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create:crafting/kinetics/mechanical_piston",
+			"text": "Mechanical Pistons move glued structures in front of them, and can be extended with Piston Extension Poles. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "crafttweaker:rope_pulley",
+			"text": "Rope Pulleys move contraptions vertically. See also: a variant specifically for elevators called the Elevator Pulley. $(ponder)"
+		}
+	]
+}
