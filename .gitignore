@@ -8,8 +8,8 @@
 /mods
 /resourcepacks
 /saves
-/schematics
 /screenshots
+/local
 
 minecraftinstance.json
 options.txt
