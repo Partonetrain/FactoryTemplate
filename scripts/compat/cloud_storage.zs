@@ -1,7 +1,6 @@
 #onlyif modloaded cloudstorage
 import mods.create.MixingManager;
 
-
 println("FactoryTemplate: Cloud Storage detected, loading integration.");
 
 <tag:items:minecraft:music_discs>.add(<item:cloudstorage:music_disc_drift>);

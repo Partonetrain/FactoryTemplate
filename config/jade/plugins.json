@@ -50,6 +50,9 @@
     "hemp": true,
     "multiblock_icon": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

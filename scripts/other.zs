@@ -7,6 +7,10 @@ import mods.jeitweaker.Jei;
 
 var empty = IIngredientEmpty.getInstance();
 
+//The book!
+craftingTable.addShapeless("factoryguide", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:factoryguide"}), [<item:minecraft:paper>, <tag:items:forge:fiber_hemp>]);
+
+
 //===VANILLA
 craftingTable.remove(<item:minecraft:hopper>);
 craftingTable.addShaped("hopper", <item:minecraft:hopper>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:chests/wooden>, <tag:items:forge:ingots/iron>], [empty, <tag:items:forge:ingots/iron>, empty]]);
@@ -30,9 +34,9 @@ craftingTable.addShaped("leather_to_large_hide", <item:quark:ravager_hide>, [[<i
 //===random
 var wheeltip = Component.literal("Also usable as wheels!") as MutableComponent;
 <item:immersiveengineering:grindingdisk>.addTooltip(wheeltip);
-var heelys = <item:create:netherite_diving_boots>.withTag({AttributeModifiers: [{Slot: "feet", AttributeName: "generic.armor", UUID: [-123724, 23521, 145751, -47042], Amount: 3, Name: "generic.armor"}, {Slot: "feet", AttributeName: "generic.armor_toughness", UUID: [-123724, 23621, 145751, -47242], Amount: 3, Name: "generic.armor_toughness"}, {Slot: "feet", AttributeName: "generic.knockback_resistance", UUID: [-123724, 23721, 145751, -47442], Amount: 0.1, Name: "generic.knockback_resistance"}, {Slot: "feet", AttributeName: "generic.movement_speed", UUID: [-123724, 23821, 145751, -47642], Amount: 1, Operation:1, Name: "generic.movement_speed"}], display: {Name: "{\"text\":\"Ultimate Heelys\"}"}, Enchantments: [{lvl: 1, id: "step:stepping"}]});
-craftingTable.addShaped("heelys", heelys, [[empty, <item:create:netherite_diving_boots>, empty], [<item:immersiveengineering:grindingdisk>, empty, <item:immersiveengineering:grindingdisk>]]);
-Jei.addIngredient(heelys);
+var adv_heelys = <item:create:netherite_diving_boots>.withTag({AttributeModifiers: [{Slot: "feet", AttributeName: "generic.armor", UUID: [-123724, 23521, 145751, -47042], Amount: 3, Name: "generic.armor"}, {Slot: "feet", AttributeName: "generic.armor_toughness", UUID: [-123724, 23621, 145751, -47242], Amount: 3, Name: "generic.armor_toughness"}, {Slot: "feet", AttributeName: "generic.knockback_resistance", UUID: [-123724, 23721, 145751, -47442], Amount: 0.1, Name: "generic.knockback_resistance"}, {Slot: "feet", AttributeName: "generic.movement_speed", UUID: [-123724, 23821, 145751, -47642], Amount: 1, Operation:1, Name: "generic.movement_speed"}], display: {Name: "{\"text\":\"Ultimate adv_heelys\"}"}, Enchantments: [{lvl: 1, id: "step:stepping"}]});
+craftingTable.addShaped("adv_heelys", adv_heelys, [[empty, <item:create:netherite_diving_boots>, empty], [<item:immersiveengineering:grindingdisk>, empty, <item:immersiveengineering:grindingdisk>]]);
+Jei.addIngredient(adv_heelys);
 
 craftingTable.remove(<item:energymeter:meter>);
 craftingTable.addShaped("energymeter", <item:energymeter:meter>, [[<tag:items:forge:ingots/steel>, <item:immersiveengineering:current_transformer>, <tag:items:forge:ingots/steel>], [<item:minecraft:redstone>, <tag:items:forge:glass_panes>, <item:minecraft:redstone>], [<tag:items:forge:ingots/steel>, <item:minecraft:observer>, <tag:items:forge:ingots/steel>]]);

@@ -1,0 +1,13 @@
+{
+	"type": "immersiveengineering:bottling_machine",
+	"fluid": {
+		"amount": 125,
+		"tag": "forge:creosote"
+	},
+	"input": {
+		"tag": "minecraft:planks"
+	},
+	"results": [{
+		"item": "immersiveengineering:treated_wood_horizontal"
+	}]
+}

@@ -24,7 +24,7 @@ cutLog(<item:quark:blossom_wood>, <item:quark:stripped_blossom_wood>);
 cutLog(<item:quark:azalea_wood>, <item:quark:stripped_azalea_wood>);
 cutLog(<item:quark:ancient_wood>, <item:quark:ancient_wood>);
 
-function cutLog(input as IItemStack, output as IItemStack) as void{ 
+public function cutLog(input as IItemStack, output as IItemStack) as void{ 
 	var recipeName = "cutting_board_" + input.getDefinition().getRegistryName().getPath();
 	<recipetype:farmersdelight:cutting>.addRecipe(recipeName, input, [output, <item:farmersdelight:tree_bark>], <tag:items:forge:tools/axes>, "minecraft:block.wood.break");
 }

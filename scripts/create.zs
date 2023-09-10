@@ -49,6 +49,8 @@ craftingTable.addShapeless("fill_blazing_burner", <item:create:blaze_burner>, [<
 craftingTable.remove(<item:create:tree_fertilizer>);
 craftingTable.addShapeless("tree_fertilizer", <item:create:tree_fertilizer> * 2, [<tag:items:minecraft:small_flowers>, <tag:items:minecraft:small_flowers>, <item:immersiveengineering:fertilizer>, <item:immersiveengineering:slag>]);
 
+craftingTable.addShapeless("recycle_schematic", <item:create:empty_schematic>, [<item:create:schematic>]);
+
 //materials
 <recipetype:create:pressing>.remove(<item:minecraft:dirt_path>);
 <recipetype:create:pressing>.remove(<item:minecraft:paper>);

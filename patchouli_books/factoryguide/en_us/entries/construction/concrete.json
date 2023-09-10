@@ -5,7 +5,7 @@
 	"pages": [        
 		{            
 			"type": "patchouli:crafting",
-			"recipe": "crafttweaker:concrete",
+			"recipe": "immersiveengineering:crafting/concrete_with_slag",
 			"text": "Concrete is a hard, composite, and smooth material. You can $(#0000ff)$(t:You will get the speed effect if a Concrete block is between 0.525 and 0.125 block below you; you can place slabs above Concrete and standing on the slabs will still give you the effect)walk faster on it$(), making it perfect for roads. It's cheap to craft, and you can use the slag from a $(l:essentials/crude_blast_furnace)Blast Furnace$() in place of gravel for a higher output."
 		},
 		{

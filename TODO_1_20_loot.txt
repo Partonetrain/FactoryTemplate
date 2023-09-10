@@ -28,5 +28,26 @@
       ],
       "rolls": 1.0
     }
+
+	//ancient_city
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ward_armor_trim_smithing_template",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:silence_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
+    }
 	
 	//also in 1.20 alternative was renamed to any_of

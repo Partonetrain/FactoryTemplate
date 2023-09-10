@@ -76,7 +76,7 @@
 		{
 			"type": "patchouli:spotlight",
 			"item": "minecraft:black_candle",
-			"text": "Placing Black Candles near your Enchanting Table will increase the chance of finding a $(bold)Smite$() or $(bold)Projectile Protection$() piece."
+			"text": "Placing Black Candles near your Enchanting Table will increase the chance of finding a $(bold)Smite$(), $(bold)Projectile Protection$(), or $(bold)Rebound$() piece."
 		}
 		
 		

@@ -41,12 +41,12 @@
 		{
 			"type": "patchouli:spotlight",
 			"item": "immersiveengineering:ore_nickel",
-			"text": "Nickel Ore is found in the world between layers -64 and 24, but more abundantly below -8. It requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into nickel ingots, which alloy with copper to create constantan, a heat resistant conductor used in the construction of $(l:patchouli:electric_generation/thermoelectric_generator)Thermoelectric Generators$()."
+			"text": "Nickel Ore is found in the world between layers -64 and 24, but more abundantly below -8. It requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into nickel ingots, which alloy with copper to create constantan, a heat resistant conductor used in the construction of $(l:patchouli:electric_generators/thermoelectric_generator)Thermoelectric Generators$()."
 		},
 		{
 			"type": "patchouli:spotlight",
 			"item": "immersiveengineering:ore_uranium",
-			"text": "Uranium Ore is found in the world between layers -64 and -16, and requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into uranium ingots, but there are currently not many uses for the metal. A uranium block can serve as a heatsource for the $(l:patchouli:electric_generation/thermoelectric_generator)Thermoelectric Generator$() and the metal will be used in future endeavours."
+			"text": "Uranium Ore is found in the world between layers -64 and -16, and requires an Iron Pickaxe to harvest. $(br)The raw ore will smelt into uranium ingots, but there are currently not many uses for the metal. A uranium block can serve as a heatsource for the $(l:patchouli:electric_generators/thermoelectric_generator)Thermoelectric Generator$() and the metal will be used in future endeavours."
 		},
 		{
 			"type": "patchouli:spotlight",

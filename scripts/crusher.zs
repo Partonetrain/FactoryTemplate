@@ -20,7 +20,7 @@ import crafttweaker.api.recipe.type.SmeltingRecipe;
 <recipetype:immersiveengineering:crusher>.addRecipe("crusher_sand", <tag:items:minecraft:sand>, 2000,  <item:immersiveengineering:dust_saltpeter>, []);
 <recipetype:immersiveengineering:crusher>.addRecipe("crusher_netherrack", <item:minecraft:netherrack>, 3200,  <item:immersiveengineering:dust_saltpeter>, []);
 <recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/gravel");
-<recipetype:immersiveengineering:crusher>.addRecipe("crusher_gravel", <item:minecraft:gravel>, 2000, <item:minecraft:flint>, []);
+<recipetype:immersiveengineering:crusher>.addRecipe("crusher_gravel", <item:minecraft:gravel>, 2000, <item:minecraft:sand>, []);
 
 <recipetype:immersiveengineering:crusher>.addRecipe("crusher_obsidian", <item:minecraft:obsidian>, 3200, <item:create:powdered_obsidian> * 4, []);
 

@@ -1,0 +1,29 @@
+{
+	"name": "Twilight Forest Changes",
+	"icon": "twilightforest:twilight_portal_miniature_structure",
+	"flag": "mod:twilightforest",
+	"category": "patchouli:readme",
+	"pages": [{
+		"type": "patchouli:text",
+		"text": "Some changes to the Twilight Forest mod have been made. They are..."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:name_tag",
+		"title": "Renames",
+		"text": "Iron Ladder>Barred Ladder$(br)Hollow Log>Fallen Log$(br)Mangrove wood>Twilight Mangrove wood"
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:chest",
+		"title": "Loot Tables",
+		"text": "Loot Tables have been changed slightly. Rare but essential drops (such as the Map Focuses) are slightly more common. Some Chest Loot has been tweaked to include more types of ingots and food. Some Milk Buckets are replaced with Milk Bottles. "
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "twilightforest:uncrafting_table",
+		"title": "Uncrafting Banned Items",
+		"text": "To prevent duplication exploits, multiple sets of items have been banned from the Uncrafting Table, either as ingredients or as outputs. $(italics)Search #twilightforest:banned_uncrafting_ingredients and #twilightforest:banned_uncraftables. Exploits may still exist."
+	}
+	]
+}

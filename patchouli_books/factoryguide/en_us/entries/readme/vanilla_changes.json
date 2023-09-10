@@ -36,7 +36,7 @@
 		"type": "patchouli:spotlight",
 		"title": "Loot Changes",
 		"item": "minecraft:chest",
-		"text": "Saddles and Name Tags are no longer found in loot tables. They can be crafted. Additionally, all music discs can be found in Dungeons."
+		"text": "Saddles and Name Tags are no longer found in loot tables. They can be crafted. Additionally, generally all music discs are now chest loot."
 	},
 	{
 		"type": "patchouli:spotlight",

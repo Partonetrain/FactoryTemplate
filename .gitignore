@@ -1,6 +1,7 @@
 *.jar
 *.zip
 *.dat
+*.snbt
 
 /.mixin.out
 /crash-reports
@@ -9,7 +10,8 @@
 /resourcepacks
 /saves
 /screenshots
-/local
+/local/ftbchunks
+/blueprints
 
 minecraftinstance.json
 options.txt

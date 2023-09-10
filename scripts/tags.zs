@@ -63,6 +63,9 @@ speed.add(<block:immersiveengineering:stairs_concrete_leaded>);
 
 <tag:items:forge:gravel>.remove(<item:immersiveengineering:slag_gravel>);
 
+<tag:items:quark:ladders>.add(<item:immersiveengineering:metal_ladder_none>);
+//Create ladders already have this functionality, no need to add them.
+
 <tag:fluids:forge:honey>.add(<fluid:create:honey>);
 <tag:fluids:forge:tea>.add(<fluid:create:tea>);
 <tag:fluids:forge:chocolate>.add(<fluid:create:chocolate>);

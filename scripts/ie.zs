@@ -71,9 +71,13 @@ craftingTable.remove(<item:immersiveengineering:fluid_pipe>);
 craftingTable.addShaped("steel_pipe", <item:immersiveengineering:fluid_pipe> * 8, [[<tag:items:forge:plates/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:plates/steel>]]);
 craftingTable.addShaped("steel_pipe_vert", <item:immersiveengineering:fluid_pipe> * 8, [[<tag:items:forge:plates/steel>], [<tag:items:forge:ingots/steel>], [<tag:items:forge:plates/steel>]]);
 
-craftingTable.removeByName("immersiveengineering:crafting/concrete");
-craftingTable.addShaped("concrete", <item:immersiveengineering:concrete> * 8, [[<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>], [<tag:items:forge:gravel>, <item:minecraft:water_bucket>, <tag:items:forge:gravel>], [<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>]]);
-craftingTable.addShaped("concrete_slag", <item:immersiveengineering:concrete> * 12, [[<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>], [<tag:items:forge:slag>, <item:minecraft:water_bucket>, <tag:items:forge:slag>], [<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>]]);
+//craftingTable.removeByName("immersiveengineering:crafting/concrete"); //these are overwritten with datapack, since they use a special recipetype
+//craftingTable.addShaped("concrete", <item:immersiveengineering:concrete> * 8, [[<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>], [<tag:items:forge:gravel>, <item:minecraft:water_bucket>, <tag:items:forge:gravel>], [<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>]]);
+//craftingTable.addShaped("concrete_slag", <item:immersiveengineering:concrete> * 12, [[<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>], [<tag:items:forge:slag>, <item:minecraft:water_bucket>, <tag:items:forge:slag>], [<tag:items:forge:sand>, <tag:items:forge:clay>, <tag:items:forge:sand>]]);
+craftingTable.addShapeless("concrete_slab_from_sheeet", <item:immersiveengineering:slab_concrete>, [<item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>]);
+craftingTable.addShapeless("concrete_slab_from_panel", <item:immersiveengineering:slab_concrete>, [<item:immersiveengineering:concrete_quarter>, <item:immersiveengineering:concrete_quarter>]);
+craftingTable.addShapeless("concrete_panel_from_sheet", <item:immersiveengineering:concrete_quarter>, [<item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>, <item:immersiveengineering:concrete_sheet>]);
+
 
 craftingTable.removeByName("immersiveengineering:crafting/fluid_pump");
 craftingTable.addShaped("electric_pump", <item:immersiveengineering:fluid_pump>, [[empty, <tag:items:forge:plates/iron>, empty], [<tag:items:forge:plates/iron>, <item:create:mechanical_pump>, <tag:items:forge:plates/iron>], [<item:immersiveengineering:fluid_pipe>, <item:immersiveengineering:fluid_pipe>, <item:immersiveengineering:fluid_pipe>]]);

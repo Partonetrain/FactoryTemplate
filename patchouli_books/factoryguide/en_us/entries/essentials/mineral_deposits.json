@@ -103,7 +103,7 @@
 		},
 		{
 			"type": "patchouli:spotlight",
-			"title": "Pentlandite$",
+			"title": "Pentlandite",
 			"item": "minecraft:deepslate_iron_ore",
 			"text": "$(l)Pentlandite$() is a mineral vein that can be found in the Overworld. $(br)It consists of $(br2)35% Deepslate Iron Ore $(br)35% Deepslate Nickel Ore $(br)30% Sulfur Dust.Its spoils are:$(br)50% Netherrack, 30% Basalt, 20% Gravel"
 		},

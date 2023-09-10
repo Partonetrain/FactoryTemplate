@@ -653,7 +653,7 @@
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
 		#Can Charcoal be crafted into Black Dye?
-		"Charcoal To Black Dye" = true
+		"Charcoal To Black Dye" = false
 		#Can two Logs be used instead of a Chest to make a Hopper?
 		"Easy Hopper" = true
 		#Can two Logs be used to craft 16 sticks?
@@ -1600,7 +1600,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
@@ -1698,7 +1698,7 @@
 	Magnets = false
 	"Matrix Enchanting" = true
 	Pipes = true
-	"Totem Of Holding" = false
+	"Totem Of Holding" = true
 	Backpack = true
 	"Tiny Potato" = true
 
@@ -1755,7 +1755,7 @@
 		"Disallowed Enchantments" = []
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
 		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
-		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling,step:stepping", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity,create:potato_recovery", "minecraft:sweeping,minecraft:multishot,farmersdelight:backstabbing", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling,step:stepping", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity,create:potato_recovery", "minecraft:sweeping,minecraft:multishot,farmersdelight:backstabbing", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection,parry:rebound"]
 		#An array of influences that other blocks should apply.
 		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
 		"States To Influences" = []
@@ -1781,7 +1781,7 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
+		"Dark Souls Mode" = false
 		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
