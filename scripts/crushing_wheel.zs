@@ -104,6 +104,22 @@ function crushingWheelMetal(oreBlock as IIngredient, rawOre as IItemStack, crush
 <tag:items:create:stone_types/dripstone>.add(<item:quark:dripstone_block_wall>);
 <tag:items:create:stone_types/dripstone>.add(<item:quark:dripstone_bricks_wall>);
 
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:cobbled_deepslate>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:polished_deepslate>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_bricks>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:cracked_deepslate_bricks>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_tiles>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:cracked_deepslate_tiles>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:chiseled_deepslate>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:cobbled_deepslate_wall>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:polished_deepslate_wall>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_brick_wall>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_tile_wall>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:cobbled_deepslate_stairs>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:polished_deepslate_stairs>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_brick_stairs>);
+<tag:items:create:stone_types/deepslate>.add(<item:minecraft:deepslate_tile_stairs>);
+
 <tag:items:quark:stone_types/limestone>.add(<item:quark:limestone_bricks>);
 <tag:items:quark:stone_types/limestone>.add(<item:quark:limestone_bricks_stairs>);
 <tag:items:quark:stone_types/limestone>.add(<item:quark:chiseled_limestone_bricks>);
@@ -172,7 +188,11 @@ function crushingWheelMetal(oreBlock as IIngredient, rawOre as IItemStack, crush
 <recipetype:create:crushing>.addRecipe("jasper_recycling", [<item:create:crushed_raw_iron> % 20, <item:minecraft:iron_nugget> % 30], <tag:items:quark:stone_types/jasper>, 100);
 <recipetype:create:crushing>.addRecipe("shale_recycling", [<item:create:crushed_raw_copper> % 30, <item:immersiveengineering:nugget_copper> % 30], <tag:items:quark:stone_types/shale>, 100);
 
-//vanilla quartz stone salvaging
+//vanilla stone salvaging
+
+<recipetype:create:crushing>.addRecipe("deepslate_recycling", [<item:create:crushed_raw_uranium> % 10, <item:immersiveengineering:nugget_uranium> % 10], <tag:items:create:stone_types/deepslate>, 100);
+
+
 <recipetype:create:crushing>.removeByName("create:crushing/diorite");
 <recipetype:create:crushing>.removeByName("create:crushing/diorite_recycling");
 

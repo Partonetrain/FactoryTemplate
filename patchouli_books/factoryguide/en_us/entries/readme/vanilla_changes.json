@@ -15,12 +15,17 @@
 	{
 		"type": "patchouli:text",
 		"title": "Lore",
-		"text": "Minecraft's \"lore\" so to speak has been mildly lessened. You can acquire some items like Magic Pearls (formerly Ender Pearls) in new ways. Travelling to the Nether or End is unnecessary for progression."
+		"text": "Minecraft's \"lore\" so to speak has been mildly lessened. You can acquire some items like Magic Pearls (formerly Ender Pearls) in new ways. Travelling to the Nether or End is unnecessary for progression in Create and Immersive Engineering."
 	},
 	{
 		"type": "patchouli:crafting",
 		"recipe": "crafttweaker:hopper",
 		"text": "The hopper recipe has been cheapened."
+	},
+	{
+		"type": "patchouli:spotlight",
+		"item": "minecraft:budding_amethyst",
+		"text": "Budding amethyst $(bold)can$() be harvested with Silk Touch."
 	},
 	{
 		"type": "patchouli:spotlight",

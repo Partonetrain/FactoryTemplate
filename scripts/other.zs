@@ -30,6 +30,8 @@ craftingTable.addShaped("candle", <item:minecraft:candle>, [[<item:minecraft:str
 craftingTable.addShapeless("large_hide_to_leather", <item:minecraft:leather> * 4, [<item:quark:ravager_hide>]);
 craftingTable.addShaped("leather_to_large_hide", <item:quark:ravager_hide>, [[<item:minecraft:leather>, <item:minecraft:leather>], [<item:minecraft:leather>, <item:minecraft:leather>]]);
 
+craftingTable.addShapeless("soul_compass", <item:minecraft:recovery_compass>, [<item:minecraft:compass>, <item:quark:soul_bead>]);
+
 
 //===random
 var wheeltip = Component.literal("Also usable as wheels!") as MutableComponent;

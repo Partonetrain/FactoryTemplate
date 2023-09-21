@@ -1,0 +1,23 @@
+{
+	"name": "Enchanting with Kinetics",    
+	"icon": "create_enchantment_industry:enchanting_guide",    
+	"category": "patchouli:kinetic_machines",
+	"flag": "mod:create_enchantment_industry",
+	"pages": [
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create_enchantment_industry:crafting/enchanting_guide",
+			"text": "By crafting and configuring an Enchanting Guide, a Blazing Burner can be converted to a Blazing Enchanter. It will be powered by Liquid Experience. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create_enchantment_industry:crafting/disenchanter",
+			"text": "Liquid Experience can be obtained with the Disenchanter. Experience Orbs and Nuggets of Experience can be converted. Standing on it will also drain your levels and convert them to Liquid Experience. $(ponder)"
+		},
+		{            
+			"type": "patchouli:crafting",
+			"recipe": "create_enchantment_industry:crafting/printer",
+			"text": "Enchanted Books can be copied with the Printer by filling it with Liquid Experience. It can also copy Written Books by using Ink instead of Liquid Experience. $(ponder)"
+		}
+	]
+}

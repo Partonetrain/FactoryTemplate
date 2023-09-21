@@ -16,8 +16,9 @@ import crafttweaker.api.item.ItemDefinition;
 <recipetype:create:splashing>.addRecipe("wash_sand", [<item:minecraft:clay_ball> % 50], <tag:items:forge:sand>);
 <recipetype:create:splashing>.addRecipe("wash_dirt", [<item:minecraft:mud>], <item:minecraft:dirt>);
 
-
-<recipetype:create:splashing>.addRecipe("wash_deepslate_cobble", [<item:minecraft:gold_nugget> % 12.5, <item:immersiveengineering:nugget_uranium> % 6.25], <item:minecraft:cobbled_deepslate>);
+<recipetype:create:splashing>.addRecipe("wash_deepslate_cobble", [<item:immersiveengineering:nugget_uranium> % 6.25], <item:minecraft:cobbled_deepslate>);
+<recipetype:create:splashing>.addRecipe("wash_basalt", [<item:minecraft:gold_nugget> % 6.25], <item:minecraft:basalt>);
+<recipetype:create:splashing>.addRecipe("wash_netherrack", [<item:minecraft:gold_nugget> % 6.25], <item:minecraft:netherrack>);
 <recipetype:create:splashing>.addRecipe("wash_cobble", [<item:immersiveengineering:nugget_lead> % 12.5, <item:immersiveengineering:nugget_silver> % 12.5, <item:immersiveengineering:nugget_nickel> % 10], <item:minecraft:cobblestone>);
 <recipetype:create:splashing>.addRecipe("wash_gravel", [<item:immersiveengineering:nugget_copper> % 25, <item:minecraft:iron_nugget> % 12.5, <item:create:zinc_nugget> % 10, <item:immersiveengineering:nugget_aluminum> % 5], <item:minecraft:gravel>);
 
