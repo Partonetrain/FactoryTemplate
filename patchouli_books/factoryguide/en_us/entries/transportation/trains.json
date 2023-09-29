@@ -11,7 +11,7 @@
 		{            
 			"type": "patchouli:spotlight",
 			"item": "create:track",
-			"text": "The first thing you'll need to even begin with trains is Train Tracks. Tracks are created in a $(bold)Recipe Sequence$() from one of the types of Sleepers (stone slabs) and either Iron or Zinc nuggets. You will need a lot of these if you plan to have your train any amount of distance, so it'd be best to automate the production of them. $(ponder)"
+			"text": "The first thing you'll need to even begin with trains is Train Tracks. Tracks are created in a $(bold)Recipe Sequence$() from one sleeper (typically stone slabs) and nuggets. You will need a lot of these if you plan to have your train any amount of distance, so it'd be best to automate the production of them. $(ponder)"
 		},
 		{
 			"type": "patchouli:spotlight",
@@ -21,7 +21,7 @@
 		{
 			"type": "patchouli:crafting",
 			"recipe": "create:crafting/kinetics/track_station",
-			"text": "After placing a Train Station next to a track, $(ponder)"
+			"text": "After placing a Train Station next to a track, open its GUI to begin assembling the train. Remember, Trains are just contraptions, and function just like them. $(ponder)"
 		},
 		{
 			"type": "patchouli:crafting",
@@ -32,6 +32,20 @@
 			"type": "patchouli:crafting",
 			"recipe": "create:crafting/kinetics/schedule",
 			"text": "If you want the train to move without you controlling it, craft a Schedule. It can be given to creatures on $(l:construction/seat)Seats$() to make them the conductor. $(ponder)"
+		},
+		{
+			"type": "patchouli:spotlight",
+			"flag": "mod:railways",
+			"title": "Conductor's Cap",
+			"item": "railways:white_conductor_cap",
+			"text": "If you don't want to put some random farm animal on your train, then consider creating a Conductor's Cap and using it on an Andesite Casing. Conductors are perfect little guys for, well, conducting! They will still need a Shedule to follow."
+		},
+		{
+			"type": "patchouli:entity",
+			"flag": "mod:railways",
+			"title": "Conductors",
+			"entity": "railways:conductor",
+			"text": "$(italics)$(l:https://github.com/Layers-of-Railways/Railway/issues/183)$(#ff0000)Note: there is a crash issue with pondering Conductor's Caps"
 		}
 	]
 }

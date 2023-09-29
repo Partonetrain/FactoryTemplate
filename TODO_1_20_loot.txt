@@ -1,5 +1,5 @@
-    //ancient_city
-	{
+    //woodland_mansion
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -18,8 +18,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 9
+          "type": "minecraft:empty"
         },
         {
           "type": "minecraft:item",
@@ -34,17 +33,27 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 75
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantments": [
+                "minecraft:mending"
+              ],
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 50
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ward_armor_trim_smithing_template",
-          "weight": 4
+          "weight": 25
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:silence_armor_trim_smithing_template"
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "weight": 25
         }
       ],
       "rolls": 1.0

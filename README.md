@@ -1,4 +1,4 @@
-The goal of this pack that I made for myself is to provide a resource-intensive factory-building experience by seamlessly integrating Immersive Engineering, Create, and Farmer's Delight together. This means little to no content overlap, and somewhat unified progression. The details of the changes are largely contained the the "factoryguide" Patchouli book.
+The goal of this pack that I made for myself is to provide a (somewhat) resource-intensive factory-building experience by seamlessly integrating Immersive Engineering, Create, and Farmer's Delight together. This means little to no content overlap, and somewhat unified progression. The details of the changes are largely contained the the "factoryguide" Patchouli book.
 It also seeks to "disconnect" Minecraft's lore from the experience, instead opting to use generic industrial concepts. (Really this is just limited to .lang file renames, retextures, and non-Overworld dimensions not being required for progression)
 This pack is meant to be added to (hence the "template"), but is entirely playable on its own.
 
@@ -12,6 +12,7 @@ Examples of scripting/config done in this pack:
 - Loot Table changes
 
 Mods not included in the minecraftinstance.json but have some kind of integration are:
-- Cloud Storage
+- Create Steam and Rails
 - Create Slice and Dice
+- Cloud Storage
 - Twilight Forest
